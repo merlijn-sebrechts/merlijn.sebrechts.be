@@ -1,29 +1,10 @@
 +++
-title = "About Hugo"
+title = "About Merlijn"
 date = "2014-04-09"
 +++
 
-Hugo is a static site engine written in Go.
+I'm a PHD researcher and Teaching Assistant at Ghent University - IDLab - imec. My research specializes in solving big data challenges using cloud modelling languages. As a passionate user of and contributor to open source technologies, I like to stand on the shoulders of giants to solve the challenges of tomorrow.
 
+I love learning from smart people at conferences and building relationships with open-source communities. I'm a regular at FOSDEM and the Juju Charmers Summit. I've also attended cfgmgmtcamp, pragmatic docker days, and many more conferences.
 
-It makes use of a variety of open source projects including:
-
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
-
-Learn more and contribute on [GitHub](https://github.com/spf13).
-
-## Setup
-
-Some fun facts about [Hugo](http://gohugo.io/):
-
-* Built in [Go](http://golang.org/)
-* Loosely inspired by [Jekyll](http://jekyllrb.com/)
-* Primarily developed by [spf13](http://spf13.com/) on the train while commuting to and from Manhattan.
-* Coded in [Vim](http://vim.org) using [spf13-vim](http://vim.spf13.com/)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/spf13/hugo/issues/new) or [ask me on Twitter](https://twitter.com/spf13).
-
-Thanks for reading!
+I like to use open source projects in strange and interesting ways. As a board member of Hackerspace Ghent, I help organize the yearly Newline hacker conference and several μcons.
