@@ -3,9 +3,10 @@ title: 'Maandag 15 april: vicieuze-BIOS-cirkel'
 author: Merlijn Sebrechts
 layout: post
 date: 2013-04-17
-url: /?p=208
 categories:
   - Tanzania
+type: "post"
+
 
 ---
 Ik toon de bibliotheekapplicatie aan de bib-guy en hij lijkt er zeer content over. Hij ziet het zitten om er mee te werken. Tijdens de demonstratie vind ik echter nog wat foutjes. Ik kan ze niet direct oplossen want het internet werkt niet.

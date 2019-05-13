@@ -3,9 +3,10 @@ title: 'Donderdag 11 april: niets speciaals'
 author: Merlijn Sebrechts
 layout: post
 date: 2013-04-14
-url: /?p=195
 categories:
   - Tanzania
+type: "post"
+
 
 ---
 Vandaag een dagje thuiswerken. Mijn beste Access kunsten bovenhalen om de bibliotheek applicatie te maken. Na een hele dag zwoegen heb ik eindelijk een applicatie waar ik trots op ben.

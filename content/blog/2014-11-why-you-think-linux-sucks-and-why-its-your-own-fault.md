@@ -20,8 +20,6 @@ I've been that person, I've bricked my system (a lot!), and the fact is, it was 
 
 {{< fancybox path="/img/old/" file="dilbert-unix.png" caption="Let's rid the world of a few Linux misconceptions" >}}
 
-<img class="wp-image-300 size-full" src="http://178.62.244.89/wp-content/uploads/2014/11/dilbert-unix.png" alt="dilbert-unix" width="599" height="196" />Let's rid the world of a few Linux misconceptions
-
 ## Linux is different
 
 _Let's start with an example: Bill is trying out Ubuntu and wants to change his screen resolution. Bill knows that on Windows, you can right-click the desktop background and click &#8220;change screen resolution&#8221;. Bill tries this, but cannot find the &#8220;change screen resolution&#8221; option. Bill can now do two things:_
@@ -31,13 +29,7 @@ _Let's start with an example: Bill is trying out Ubuntu and wants to change hi
 
 Linux is not Windows. You are used to doing things a certain way on Windows. Some things will work differently on Linux. You will have to get used to it. This does not mean Linux is hard, only that it is different. Mac has this exact same problem. Windows power users complaining that ctrl-c ctrl-v does not work on a mac, even though the command button makes a lot of sense.
 
-<div id="attachment_293" style="width: 895px" class="wp-caption alignnone">
-  <a href="http://178.62.244.89/wp-content/uploads/2014/11/change-screen-resolution.png"><img class="size-full wp-image-293" src="http://178.62.244.89/wp-content/uploads/2014/11/change-screen-resolution.png" alt="Yes, you can change the resolution in a GUI" width="885" height="603" /></a>
-  
-  <p class="wp-caption-text">
-    And yes, you can change the resolution in a GUI
-  </p>
-</div>
+{{< fancybox path="/img/old/" file="change-screen-resolution.png" caption="And yes, you can change the resolution in a GUI" >}}
 
 ## Windows power user != Linux power user
 
@@ -57,13 +49,7 @@ _Exhibit B: Bob is running the latest Ubuntu on a 10-year old laptop and notices
 
 You're a Windows power user. You can mess with Windows, because you know what is dangerous, you know what warnings you can safely ignore. You are not a Linux power user. You do not know how to make that distinction on Linux, so be very careful!
 
-<div id="attachment_292" style="width: 522px" class="wp-caption alignnone">
-  <a href="http://178.62.244.89/wp-content/uploads/2014/11/make-ubuntu-faster-e1415460263146.png"><img class="wp-image-292 size-full" src="http://178.62.244.89/wp-content/uploads/2014/11/make-ubuntu-faster-e1415460263146.png" alt="make ubuntu faster" width="512" height="391" /></a>
-  
-  <p class="wp-caption-text">
-    Do not blindly trust commands from the web
-  </p>
-</div>
+{{< fancybox path="/img/old" file="make-ubuntu-faster-e1415460263146.png" caption="Do not blindly trust commands from the web" >}}
 
 I cannot stress this enough. I've seen this happen so many times, with myself, and with other people.  A friend of mine wanted to make a lightweight Ubuntu install for a media center. He was using a heavily outdated guide to do so. The guide instructed him to remove a lot of programs, including compiz. Little did he know that newer versions of Ubuntu(Unity) require compiz to function properly. The result: he bricked his system, and blamed Ubuntu in the process.
 
@@ -73,13 +59,7 @@ A desktop environment(DE) is a collection of software that does a lot more than 
 
 When you choose a DE, you basically choose how you will interact with your computer. If you choose a lightweight DE like lxde, you will lose a lot of the out-of-the-box experience a Windows/Mac user might expect. You will have to pop open a terminal, even to do basic stuff, like change your timezone. Unity on the other hand has those features, but demands more from your hardware.
 
-<div id="attachment_294" style="width: 610px" class="wp-caption alignnone">
-  <a href="http://178.62.244.89/wp-content/uploads/2014/11/xubuntu-trusty_desktop-600x450.png"><img class="size-full wp-image-294" src="http://178.62.244.89/wp-content/uploads/2014/11/xubuntu-trusty_desktop-600x450.png" alt="Xubuntu might be fast and stable, but it comes with a price" width="600" height="450" /></a>
-  
-  <p class="wp-caption-text">
-    Xubuntu might be fast and stable, but it comes with a price
-  </p>
-</div>
+{{< fancybox path="/img/old/" file="xubuntu-trusty_desktop-600x450.png" caption="Xubuntu might be fast and stable, but it comes with a price" >}}
 
 A lot of the DE's share the same libraries and software. Installing multiple DE's at the same time can cause problems. If you want to try out different DE's, I recommend doing a clean install with one of [the official Ubuntu flavours][1], or another distro.
 
@@ -91,25 +71,15 @@ Everyone who tried Linux for the first time has had the same question: &#8220;wh
 
 If you're looking for a Window/Mac replacement for your primary machine, and you are new to Linux,  you should use default Ubuntu. Ubuntu offers the complete out-of-the-box experience you are used to on Windows/Mac. It is the best supported desktop, and It also has a good community that is very newbie-friendly. Every problem you will have, someone has had already. Askubuntu is full of questions Windows and Mac users might have when switching to Ubuntu.
 
-<div id="attachment_298" style="width: 635px" class="wp-caption alignnone">
-  <a href="http://178.62.244.89/wp-content/uploads/2014/11/askubuntu.png"><img class="wp-image-298 size-large" src="http://merlijn.sebrechts.be/wp-content/uploads/2014/11/askubuntu-1024x644.png" alt="Askubuntu, helping Windows users change to Linux since 2010" width="625" height="393" /></a>
-  
-  <p class="wp-caption-text">
-    Askubuntu, helping Windows users change to Linux since 2010
-  </p>
-</div>
+
+{{< fancybox path="/img/old/" file="askubuntu-1024x644.png" caption="Askubuntu, helping Windows users change to Linux since 2010" >}}
 
 You will surely find a DE that is easier to use than Unity. You will also find one that is more stable and one that is more beautiful. However, Unity offers the complete package with very few rough edges.
 
 It's also easy to find a Distro that is more up-to-date than Ubuntu. Finding one that is more stable and one that is faster is easy too. But again, Ubuntu offers the complete package, with very few rough edges. It makes the transition very easy and it is a care-free Windows/Mac replacement.
 
-<div id="attachment_297" style="width: 635px" class="wp-caption alignnone">
-  <a href="http://178.62.244.89/wp-content/uploads/2014/11/unity-is-beautiful.png"><img class="wp-image-297 size-large" src="http://merlijn.sebrechts.be/wp-content/uploads/2014/11/unity-is-beautiful-1024x576.png" alt="With a Numix theme, Unity looks pretty good!" width="625" height="352" /></a>
-  
-  <p class="wp-caption-text">
-    With a Numix theme, Unity looks pretty good!
-  </p>
-</div>
+
+{{< fancybox path="/img/old/" file="unity-is-beautiful-1024x576.png" caption="With a Numix theme, Unity looks pretty good!" >}}
 
 ## Conclusion
 

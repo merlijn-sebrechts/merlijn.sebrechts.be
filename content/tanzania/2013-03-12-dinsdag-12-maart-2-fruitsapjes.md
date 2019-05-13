@@ -3,12 +3,13 @@ title: 'Dinsdag 12 maart: 2 fruitsapjes'
 author: Merlijn Sebrechts
 layout: post
 date: 2013-03-12
-url: /?p=72
 categories:
   - Tanzania
+type: "post"
+
 
 ---
-Opgestaan om 8 uur. Boterhammen met choco als ontbijt. Het regent super hard dus bellen we een taxi. 2000 shilling (1 euro) om droog aan het Newman gebracht te worden, dat heb ik er wel voor over <img src="http://merlijn.sebrechts.be/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Opgestaan om 8 uur. Boterhammen met choco als ontbijt. Het regent super hard dus bellen we een taxi. 2000 shilling (1 euro) om droog aan het Newman gebracht te worden, dat heb ik er wel voor over 🙂 
 
 Het plan: Aan Edison vragen om de kabelgoten te kopen en de laptops voor de bibliotheek klaarmaken. We komen Edison tegen bij het binnenkomen en vertellen hem onze plannen. Hij verdwijnt en komt even later terug met 8 laptops en grote doos vol kabels.Aan ons om uit te zoeken welke laptops nog werken en welke kabels er bij welke laptops horen.
 

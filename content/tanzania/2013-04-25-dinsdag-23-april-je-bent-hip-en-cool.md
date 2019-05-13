@@ -3,16 +3,17 @@ title: 'Dinsdag 23 april: Je bent hip, en cool..'
 author: Merlijn Sebrechts
 layout: post
 date: 2013-04-25
-url: /?p=224
 categories:
   - Tanzania
+type: "post"
+
 
 ---
 Deze ochtend gaan we de leerkrachten leren werken met het NISS, Newman Information Sharing System. Onze implementatie van moodle. Wanneer we aankomen op het Newman merk ik dat ik mijn harde schijven vergeten ben in Aqua Lodge 5 minuten later merkt Jeroen dat hij een switch uit aqua lodge nodig heeft. Nog eens 5 minuten later zit ik achterop een pickey pickey die naar aqua lodge racet achter ons gerief.
 
 Terwijl we de projector aan het opzetten zijn komt de bib-guy bij mij. Hij vraagt of ik een extra veld wil maken in het bibprogramma waarin hij kan ingeven in welke rij het boek staat. Ik vind dat fantastisch nieuws: Dat wil zeggen dat hij er mee gewerkt heeft en zin heeft om er nog mee te werken. Ik voeg het extra veld toe en de bib-guy is zeer content.
 
-De voorstelling loopt ook zeer goed. De leerkrachten snappen hoe het werkt en zijn er content van dus wij zijn ook content. <img src="http://merlijn.sebrechts.be/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+De voorstelling loopt ook zeer goed. De leerkrachten snappen hoe het werkt en zijn er content van dus wij zijn ook content. 🙂 
 
 Namiddag: een kapotte usb-stick dissecteren en tevergeefs proberen te vermaken. Nkora zijn computer configureren en vloeken op een dell die Jens meegebracht heeft.
 

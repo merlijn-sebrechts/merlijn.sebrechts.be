@@ -3,9 +3,10 @@ title: 'Vrijdag 3 mei: Die hp -_-'
 author: Merlijn Sebrechts
 layout: post
 date: 2013-05-05
-url: /?p=255
 categories:
   - Tanzania
+type: "post"
+
 
 ---
 Bro. Venace geeft mij zijn computer. Er is iets mis mee. &#8220;Hij word heel warm en de batterij gaat niet lang mee. Een week geleden was het veel beter&#8221;. Hij vraagt mij hoelang ik er mee bezig ga zijn. Met een uitleg zoals die kan ik dat helemaal niet weten. Het probleem kan een simpele virus tot een serieus hardware probleem zijn. Gelukkig heeft hij backups genomen dus mag ik hem zolang houden als nodig.

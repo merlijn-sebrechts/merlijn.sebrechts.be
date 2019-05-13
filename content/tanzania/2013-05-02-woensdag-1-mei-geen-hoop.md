@@ -3,9 +3,10 @@ title: 'Woensdag 1 mei: geen hoop'
 author: Merlijn Sebrechts
 layout: post
 date: 2013-05-02
-url: /?p=248
 categories:
   - Tanzania
+type: "post"
+
 
 ---
 Nu er 5 man weg is, zijn er 3 kamers vrij. Tijd om eens van kamer te veranderen. Ik ben het beu om iedere morgen om 7 uur wakker te worden door de broeders die in de kamer ernaast zitten te ontbijten. &#8216;s avonds kan ik ook amper in slaap geraken want de kamer koelt langs geen kanten af. Doordat de kamer tussen 2 kamers ligt komt er niets van frisse wind binnen&#8230;

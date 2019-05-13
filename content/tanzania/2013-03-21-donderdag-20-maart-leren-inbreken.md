@@ -3,20 +3,21 @@ title: 'Donderdag 20 maart: leren inbreken'
 author: Merlijn Sebrechts
 layout: post
 date: 2013-03-21
-url: /?p=119
 categories:
   - Tanzania
+type: "post"
+
 
 ---
 Vol goede moed rolt merlijn uit zijn bed. Klaar om de nieuwe dag te bespringen. Eerst: boterham met pindakaas en oplos-chocomelk, Mmmm!
 
 Terwijl ik aan het eten ben begint het te stortregenen. Bijna een Belgische zomer! De oprit van de Aqua Lodge begint te overstromen en ik kan het natuurlijk niet laten om enkele foto&#8217;s te trekken.
 
-[<img title="DSC_0346.jpg" class="alignnone size-full" alt="image" src="http://178.62.244.89/wp-content/uploads/2013/03/wpid-DSC_0346.jpg" />][1] 
+{{< fancybox path="/img/old/" file="wpid-DSC_0346.jpg"  caption="" >}} 
 
 Een stortbui zoals dit is hier dagelijkse kost. De mensen doen gewoon verder met hun was, hun plas, en het dweilen van de koer&#8230;
   
-[<img title="DSC_0349.jpg" class="alignnone size-full" alt="image" src="http://178.62.244.89/wp-content/uploads/2013/03/wpid-DSC_0349.jpg" />][2] 
+{{< fancybox path="/img/old/" file="wpid-DSC_0349.jpg"  caption="" >}} 
 
 We krijgen een lift naar het Newman waardoor we er redelijk droog toekomen. We doen de deur open, doen het licht aan, kijken naar elkaar en zuchten. Geen electriciteit. Aangezien er electriciteit was in aqua lodge zal het gewoon ergens een gesprongen zekering zijn. In Afrika is dat een ferm probleem aangezien er niemand enig idee heeft hoe de electriciteitskabels lopen. Jeroen en ik maken ons klaar voor een avonturierstocht naar de bron van de electriciteit.
 
@@ -34,8 +35,5 @@ Ten einde raad probeer ik met de harde schijf in een andere laptop te steken en 
 
 Morgen vertekken we op safari naar Katavi. Een park op een halve dag rijden van hier. We gaan 3 dagen weg zijn, het perfecte moment om enkele programma&#8217;s te laten downloaden. We laten allebei onze computer achter in het lokaal zodat ze op hun gemak kunnen downloaden. Volgens mij moeten we niet bang zijn dat iemand ze zou stelen. Hier geraakt niemand binnen:
   
-[<img title="DSC_0353.jpg" class="alignnone size-full" alt="image" src="http://178.62.244.89/wp-content/uploads/2013/03/wpid-DSC_0353.jpg" />][3]
+{{< fancybox path="/img/old/" file="wpid-DSC_0353.jpg"  caption="" >}}
 
- [1]: http://178.62.244.89/wp-content/uploads/2013/03/wpid-DSC_0346.jpg
- [2]: http://178.62.244.89/wp-content/uploads/2013/03/wpid-DSC_0349.jpg
- [3]: http://178.62.244.89/wp-content/uploads/2013/03/wpid-DSC_0353.jpg

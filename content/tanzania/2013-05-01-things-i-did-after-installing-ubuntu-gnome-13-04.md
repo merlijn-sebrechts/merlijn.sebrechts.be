@@ -3,7 +3,6 @@ title: Things I did after installing Ubuntu Gnome 13.04
 author: Merlijn Sebrechts
 layout: post
 date: 2013-05-01
-url: /?p=229
 categories:
   - 'Ubuntu &amp; Linux'
 

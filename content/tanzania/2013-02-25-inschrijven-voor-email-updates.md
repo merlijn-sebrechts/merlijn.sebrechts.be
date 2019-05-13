@@ -3,7 +3,6 @@ title: Inschrijven voor email-updates
 author: Merlijn Sebrechts
 layout: post
 date: 2013-02-25
-url: /?p=35
 categories:
   - Uncategorized
 

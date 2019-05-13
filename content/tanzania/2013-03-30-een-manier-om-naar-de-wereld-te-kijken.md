@@ -3,9 +3,10 @@ title: Een manier om naar de wereld te kijken
 author: Merlijn Sebrechts
 layout: post
 date: 2013-03-30
-url: /?p=151
 categories:
   - Tanzania
+type: "post"
+
 
 ---
 &#8220;what do you do here exactly?&#8221; Vraag ik aan Michelle. Tijd om een lang antwoord te geven heeft ze zeker, Windows zal nog zeker 5 uur bezig zijn met te installeren. Ik kan niets doen ondertussen&#8230;

@@ -3,9 +3,10 @@ title: 'Woensdag 13 maart: barmhartigheid'
 author: Merlijn Sebrechts
 layout: post
 date: 2013-03-13
-url: /?p=78
 categories:
   - Tanzania
+type: "post"
+
 
 ---
 Om 2 uur &#8216;s nachts word ik wakker door het trillen van mijn gsm. Lies belt mij om mij gelukkige verjaardag te wensen. Ze is de eerste, proficiat!
@@ -16,26 +17,21 @@ Wanneer we toekomen in het Newman zie ik dat mijn laptop braafjes alle programma
 
 We hebben geen kabels die lang genoeg zijn, dus doen we den brolcontainer nog eens open. Terwijl we achter kabels zoeken vinden we drie gigantische wifi-antene-schotels. Ik vermoed dat het stralers zijn om een wifi backbone te maken, maar ik ben het niet zeker. Als iemand hier meer over weet, laat maar horen!
 
-[<img title="DSC_0288.jpg" class="alignnone size-full" alt="image" src="http://178.62.244.89/wp-content/uploads/2013/03/wpid-DSC_0288.jpg" />][1]
+{{< fancybox path="/img/old/" file="wpid-DSC_0288.jpg"  caption="" >}}
 
-[<img title="DSC_0287.jpg" class="alignnone size-full" alt="image" src="http://178.62.244.89/wp-content/uploads/2013/03/wpid-DSC_0287.jpg" />][2]
+{{< fancybox path="/img/old/" file="wpid-DSC_0287.jpg"  caption="" >}}
 
-[<img title="DSC_0289.jpg" class="alignnone size-full" alt="image" src="http://178.62.244.89/wp-content/uploads/2013/03/wpid-DSC_0289.jpg" />][3]
+{{< fancybox path="/img/old/" file="wpid-DSC_0289.jpg"  caption="" >}}
 
 Jeroen merkt opeens dat de container naast de onze ook open is. We kunnen het niet laten om er eens een kijkje in te nemen. We verwachten om een container vol niet-IT materiaal te vinden, aangezien Edison expliciet heeft gezegd dat geen enkele andere container nog IT/electronisch/electrisch materiaal bevat. Tot onze grote verbazing staat de container staat vol met printers, scanners en grote fotokopiemachines. Nader onderzoek wijst uit dat ze wel degelijk op electriciteit werken en niet op stoom of een andere niet electrische energiebron.
 
 We kunnen het niet laten om een 3de container open te trekken om de inhoud te bestuderen. Een walm van vochtige hond komt ons tegemoed wanneer we de deur opentrekken. De container blijkt vol te liggen met vochtige kleren&#8230; Ligt daar al jaren te verkommeren. Mijn gedachten gaan naar de brave zieltjes die een container kleren hebben verzonden naar den Afrique vol vertrouwen dat ze zouden gebruikt worden om &#8220;de naakten de kleden&#8221; of een ander werk van barmhartigheid.
 
-[<img title="DSC_0278.jpg" class="alignnone size-full" alt="image" src="http://178.62.244.89/wp-content/uploads/2013/03/wpid-DSC_0278.jpg" />][4]
+{{< fancybox path="/img/old/" file="wpid-DSC_0278.jpg"  caption="" >}}
 
 Pittig detail: Aan de ingang een zak met boekjes over een of andere heilige en &#8220;de weg naar god&#8221;.
 
-[<img title="DSC_0279.jpg" class="alignnone size-full" alt="image" src="http://178.62.244.89/wp-content/uploads/2013/03/wpid-DSC_0279.jpg" />][5]
+{{< fancybox path="/img/old/" file="wpid-DSC_0279.jpg"  caption="" >}}
 
 Van wat we horen is dit nog het tipje van de ijsberg: Containers vol met naaimachines, printpapier, schoolschriften, stylo&#8217;s, boeken. Gedoneerde muskietennetten, matrassen, schoenen die verkocht worden 2 weken nadat de westerlingen weg zijn. Een fantastisch project opzetten is hier kinderspel, maar de echte uitdaging ligt ver na de start: zorg ervoor dat het project verdergezet word nadat jij weg bent.
 
- [1]: http://178.62.244.89/wp-content/uploads/2013/03/wpid-DSC_0288.jpg
- [2]: http://178.62.244.89/wp-content/uploads/2013/03/wpid-DSC_0287.jpg
- [3]: http://178.62.244.89/wp-content/uploads/2013/03/wpid-DSC_0289.jpg
- [4]: http://178.62.244.89/wp-content/uploads/2013/03/wpid-DSC_0278.jpg
- [5]: http://178.62.244.89/wp-content/uploads/2013/03/wpid-DSC_0279.jpg

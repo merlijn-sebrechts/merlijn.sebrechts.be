@@ -3,9 +3,10 @@ title: 'Woensdag 10 april: son, I am dissappoint!'
 author: Merlijn Sebrechts
 layout: post
 date: 2013-04-11
-url: /?p=194
 categories:
   - Tanzania
+type: "post"
+
 
 ---
 Ik zit een dag voor op de planning dus ik kan wat dingen van vroeger inhalen. De bibliotheek. Katrien vertelde ons dat het uitlenen van boeken nog steeds op papier gebeurt en ze vroeg ons om het te digitaliseren.

@@ -122,6 +122,12 @@ disableLanguages        = [""]
     weight            = 3
 
   [[menu.main]]
+    name              = "Tanzania"
+    url               = "/tanzania/"
+    identifier        = "far fa-newspaper"
+    weight            = 3
+
+  [[menu.main]]
     name              = "Categories"
     url               = "/categories/"
     identifier        = "fas fa-sitemap"

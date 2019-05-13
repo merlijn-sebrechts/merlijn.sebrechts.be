@@ -3,9 +3,10 @@ title: 'Vrijdag 12 april: chimps in gombe'
 author: Merlijn Sebrechts
 layout: post
 date: 2013-04-17
-url: /?p=196
 categories:
   - Tanzania
+type: "post"
+
 
 ---
 Plan: 6.40 opstaan, 7.30 vertrekken.
@@ -16,11 +17,11 @@ De wekker op mijn gsm was vastgelopen. Ipv mij rustig wakker te wiegen met een p
 
 De boottocht naar gombe is echt fantastisch. Half indommelen terwijl je het meer tegen de romp hoort klotsen. We passeren enkele vissersdorpen. De vissers drogen de vissen door ze op stellingen te leggen. Langzaamaan zien we het landschap veranderen. Er komen meer en meer bomen bij en alles word groener. Het junglegeluid begint langzaam boven het ronken van de motor te komen.
 
-[<img class="alignnone wp-image-199 size-medium" src="http://merlijn.sebrechts.be/wp-content/uploads/2013/04/DSC_0449-300x169.jpg" alt="DSC_0449" width="300" height="169" />][2]
+{{< fancybox path="/img/old/" file="DSC_0449-300x169.jpg" caption="" >}}
 
-[<img class="alignnone wp-image-200 size-medium" src="http://merlijn.sebrechts.be/wp-content/uploads/2013/04/DSC_0450-300x169.jpg" alt="DSC_0450" width="300" height="169" />][3]
+{{< fancybox path="/img/old/" file="DSC_0450-300x169.jpg" caption="" >}}
 
-[<img class="alignnone wp-image-201 size-medium" src="http://merlijn.sebrechts.be/wp-content/uploads/2013/04/DSC_0453-169x300.jpg" alt="DSC_0453" width="169" height="300" />][4]
+{{< fancybox path="/img/old/" file="DSC_0453-169x300.jpg" caption="" >}}
 
 Nog voor we in Gombe aankomen zien we een groepje apen op het strand. Ze zijn keien aan het eten. Blijkbaar doen ze dat om mineralen binnen te krijgen.
 
@@ -28,17 +29,17 @@ We meren aan en worden verwelkomt door de volledige staf van het Jane Goodall In
 
 De mensen van het park waren op de hoogte dat ge gingen komen en hadden al &#8220;spotters&#8221; op pad gezet om de chimps te zoeken. &#8220;I have good news and bad news. The good: we know where the chimps are! The bad: They are very far&#8230;&#8221; Dat wordt dus een uurenhalf stappen met het prachtige zicht op de kustlijn&#8230;
 
-[<img class="alignnone wp-image-204 size-medium" src="http://merlijn.sebrechts.be/wp-content/uploads/2013/04/DSC_0462-169x300.jpg" alt="DSC_0462" width="169" height="300" />][5]
+{{< fancybox path="/img/old/" file="DSC_0462-169x300.jpg" caption="" >}}
 
-[<img class="alignnone wp-image-202 size-medium" src="http://merlijn.sebrechts.be/wp-content/uploads/2013/04/DSC_0460-169x300.jpg" alt="DSC_0460" width="169" height="300" />][6]
+{{< fancybox path="/img/old/" file="DSC_0460-169x300.jpg" caption="" >}}
 
 We zien een groep chimps een boom afbreken. De gids heeft een fantastisch idee: &#8220;let&#8217;s get closer!&#8221;. We lopen de bergen op, de jungle in, achter de chimps aan. Gemakkelijker gezegd dan gedaan want de chimps verplaatsen zich razendsnel. Tot het begint te regenen. Dan nestelen ze zich allemaal in een boom en wachten ze tot het terug droog word. &#8220;They do not like to get wet&#8221; laat de gids weten.
 
-[<img class="alignnone wp-image-205 size-medium" src="http://merlijn.sebrechts.be/wp-content/uploads/2013/04/DSC_0468-300x169.jpg" alt="DSC_0468" width="300" height="169" />][7]
+{{< fancybox path="/img/old/" file="DSC_0468-300x169.jpg" caption="" >}}
 
 2 uur lang volgen we de chimps tussen de bomen. Dan krijgen we honger. We vragen aan de gids om ons naar het strand te brengen. Na het eten gaan we op stap naar een waterval. Tijdens de tocht vertelt de gids het verhaal van Jane Goodall
 
-[<img class="alignnone wp-image-203 size-medium" src="http://merlijn.sebrechts.be/wp-content/uploads/2013/04/DSC_0461-169x300.jpg" alt="DSC_0461" width="169" height="300" />][8]
+{{< fancybox path="/img/old/" file="DSC_0461-169x300.jpg" caption="" >}}
 
 Jane Goodall is een amerikaanse onderzoekster die zeer invloedrijk onderzoek heeft gedaan naar chimps. Ze zette in Gombe een “feeding station” op waar ze de gedragen van chimps onderzocht. Ze kreeg veel kritiek op haar werk oa doordat ze de chimps een naam gaf ipv een nummer. Ook probeerde ze hun gedrag uit te leggen ahv emoties enzo. Het was toen zeer controversieël om te zeggen dat dieren emoties hebben.
 
@@ -49,10 +50,3 @@ Rond 2000 werd haar onderzoek na 30 jaar stopgezet door de overheid om de chimps
 Het Jane Goodall Institute is nog steeds aanwezig in het park, maar veel minder “intrusive” dan 13 jaar geleden. De feeding stations worden niet meer gebruikt en het mens-chimp contact word zo klein mogelijk gehouden.
 
  [1]: http://www.computerweekly.com/feature/Apollo-11-The-computers-that-put-man-on-the-moon
- [2]: http://178.62.244.89/wp-content/uploads/2013/04/DSC_0449.jpg
- [3]: http://178.62.244.89/wp-content/uploads/2013/04/DSC_0450.jpg
- [4]: http://178.62.244.89/wp-content/uploads/2013/04/DSC_0453.jpg
- [5]: http://178.62.244.89/wp-content/uploads/2013/04/DSC_0462.jpg
- [6]: http://178.62.244.89/wp-content/uploads/2013/04/DSC_0460.jpg
- [7]: http://178.62.244.89/wp-content/uploads/2013/04/DSC_0468.jpg
- [8]: http://178.62.244.89/wp-content/uploads/2013/04/DSC_0461.jpg

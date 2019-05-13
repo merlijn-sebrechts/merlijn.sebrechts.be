@@ -3,9 +3,10 @@ title: 'Maandag 18, dinsdag 19 woensdag 20 maart: het gaat niet vooruit.'
 author: Merlijn Sebrechts
 layout: post
 date: 2013-03-21
-url: /?p=117
 categories:
   - Tanzania
+type: "post"
+
 
 ---
 Voor de zoveelste keer proberen we windows offline updates te downloaden. Voor de zoveelste keer mislukt het. Terwijl Jeroen verderwerkt in de bibliotheek zit ik er een hele dag tevergeefs mee te kloten. Uit pure miserie begin ik WSUS te downloaden. Het idee: maak in een virtuele machine een windows update server. Via het netwerk kan die dan alle computers updaten. Dit is de meest omslachtige methode ooit, maar na een week lang te zitten kloten met WSUS offline updater is het de meest logische stap.
@@ -22,10 +23,9 @@ Ruth komt binnen, ze vraagt of we eens naar haar internet willen kijken omdat he
   
 Als er hier nog iemand binnengeraakt&#8230;
 
-[<img title="DSC_0350.jpg" class="alignnone size-full" alt="image" src="http://178.62.244.89/wp-content/uploads/2013/03/wpid-DSC_0350.jpg" />][1]
+{{< fancybox path="/img/old/" file="wpid-DSC_0350.jpg"  caption="" >}}
 
 Het internet in aqua lodge is is al bijna een week zeer onstabiel. De broeders geven ons de toestemming om er eens naar te kijken. De draadloze access point was zeer slecht geconfigureerd. 2 routers met hetzelfde ip adres in hetzelfde netwerk, 2 dhcp servers met overlappende ranges in hetzelfde netwerk&#8230; Na het kluwen ontward te hebben werkt het internet opeens al veel beter.
 
 Eigenlijk niet veel vooruitgang geboekt in de voorbije 3 dagen. Veel programma&#8217;s moeten downloaden, veel moeten wachten, internet veel uitgevallen. Gelukkig gaan we alles wat we nu downloaden nog veel nodig hebben. Volgende keer kan het dus sneller gaan.
 
- [1]: http://178.62.244.89/wp-content/uploads/2013/03/wpid-DSC_0350.jpg

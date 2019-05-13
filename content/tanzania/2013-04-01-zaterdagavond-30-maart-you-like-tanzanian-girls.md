@@ -3,9 +3,10 @@ title: 'Zaterdagavond 30 maart: “you like Tanzanian girls?'
 author: Merlijn Sebrechts
 layout: post
 date: 2013-04-01
-url: /?p=157
 categories:
   - Tanzania
+type: "post"
+
 
 ---
 Vitus vertrekt binnenkort op boarding school en dat moet gevierd worden. We hebben een quiz getsjoept van de Antwerpenaren en spelen die tegen mekaar met Maxime als Quizmaster en Franky als vertaler engels voor Ben en Vitus.

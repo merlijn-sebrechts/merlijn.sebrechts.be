@@ -3,9 +3,10 @@ title: 'Vrijdag 5 april: mannenavond'
 author: Merlijn Sebrechts
 layout: post
 date: 2013-04-08
-url: /?p=181
 categories:
   - Tanzania
+type: "post"
+
 
 ---
 We zijn een half uurtje op het Newman en de electriciteit valt uit. Jeroen gaat een kabelgoot gaan plaatsen en ik maak van de gelegenheid gebruik om het lokaal eens uit te mesten. Het idee was om enkel de vloer eens te vegen, maar toen ik het stof op de rekken zag liggen kon ik het niet laten om alles van boven tot beneden eens te vegen. Bij iedere veeg vielen er wolken roeste aarde naar beneden. Op de grond begon er zich een moestuintje te vormen.

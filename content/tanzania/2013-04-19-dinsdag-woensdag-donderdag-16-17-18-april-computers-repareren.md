@@ -3,9 +3,10 @@ title: 'Dinsdag woensdag donderdag 16-17-18 April: Computers repareren'
 author: Merlijn Sebrechts
 layout: post
 date: 2013-04-19
-url: /?p=213
 categories:
   - Tanzania
+type: "post"
+
 
 ---
 3 dagen lang door mekaar aan 5 computers gewerkt. Ik zet het in één post om het wat overzichtelijker te houden&#8230;

@@ -3,9 +3,10 @@ title: Inhaalbeweging
 author: Merlijn Sebrechts
 layout: post
 date: 2013-04-01
-url: /?p=156
 categories:
   - Tanzania
+type: "post"
+
 
 ---
 Even een korte inhaalbeweging voor mijn blog.

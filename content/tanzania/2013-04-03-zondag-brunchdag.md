@@ -3,9 +3,10 @@ title: Zondag brunchdag
 author: Merlijn Sebrechts
 layout: post
 date: 2013-04-03
-url: /?p=159
 categories:
   - Tanzania
+type: "post"
+
 
 ---
 5 uurtjes slapen en dan opstaan om te koken. We gaan brunchen en iedereen gaat iets koken. Ik maak noedelsoep.
@@ -16,10 +17,9 @@ De overschot van het vlees van gisteren laat ik hard doorkoken met beef masala e
 
 Een half uurtje later haal ik het vlees er uit. Ik doe de pot vol met water, doe er de groenten bij (1 knoflook, 2 ajuinen, 2 gepelde tomaten, 1 paprika) en laat ze goed doorkoken. Normaal gezien is het beter om eerst de groenten kort te stoven, maar bij gebrek aan tweede pot sla ik het even over. Ik doe er ook nog was sojasaus, beef masala en zout bij.
 
-Als de groenten gaar zijn proef ik er even van en kieper ik er vlug nog een dikke scheut sojasaus bij, gevolgd door beef masala en zout. Ik doe de noedels erbij, wacht nog 5 minuten en klaar is mijn soepje <img src="http://merlijn.sebrechts.be/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Als de groenten gaar zijn proef ik er even van en kieper ik er vlug nog een dikke scheut sojasaus bij, gevolgd door beef masala en zout. Ik doe de noedels erbij, wacht nog 5 minuten en klaar is mijn soepje 🙂 
   
-[<img title="DSC_0426.jpg" class="alignnone size-full" alt="image" src="http://178.62.244.89/wp-content/uploads/2013/04/wpid-DSC_04261.jpg" />][1] 
+{{< fancybox path="/img/old/" file="wpid-DSC_04261.jpg"  caption="" >}} 
 
-Na het eten kruip ik in mijn bed en slaap ik tot aan het avondeten. We gaan gaan eten in het poepsjieke hilltop hotel. Spijtig genoeg zonder poepsjieke wijnen want hilltop word uitgebaat door Moslims&#8230; Na het eten? Kruip ik terug in mijn bed. Zo gaat een zondag snel voorbij <img src="http://merlijn.sebrechts.be/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Na het eten kruip ik in mijn bed en slaap ik tot aan het avondeten. We gaan gaan eten in het poepsjieke hilltop hotel. Spijtig genoeg zonder poepsjieke wijnen want hilltop word uitgebaat door Moslims&#8230; Na het eten? Kruip ik terug in mijn bed. Zo gaat een zondag snel voorbij 🙂 
 
- [1]: http://178.62.244.89/wp-content/uploads/2013/04/wpid-DSC_04261.jpg

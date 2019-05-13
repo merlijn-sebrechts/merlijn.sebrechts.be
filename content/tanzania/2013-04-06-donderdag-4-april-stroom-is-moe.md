@@ -3,9 +3,10 @@ title: 'Donderdag 4 april: stroom is moe'
 author: Merlijn Sebrechts
 layout: post
 date: 2013-04-06
-url: /?p=180
 categories:
   - Tanzania
+type: "post"
+
 
 ---
 Wakker worden met koppijn en loopneus. Ik ben dus nog steeds ziek. Op 20 minuten een zakdoek volsnuiten -_-

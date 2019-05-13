@@ -3,9 +3,10 @@ title: 'Q&A: busrit in Tanzania'
 author: Merlijn Sebrechts
 layout: post
 date: 2013-03-03
-url: /?p=42
 categories:
   - Tanzania
+type: "post"
+
 
 ---
 Welkom bij Merlijn&#8217;s wekelijks q&a rondje. Het thema van deze week is: een busrit in Tanzania.

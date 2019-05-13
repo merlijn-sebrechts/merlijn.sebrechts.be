@@ -3,9 +3,10 @@ title: 'Maandag 11 maart: geen catchy titel'
 author: Merlijn Sebrechts
 layout: post
 date: 2013-03-11
-url: /?p=71
 categories:
   - Tanzania
+type: "post"
+
 
 ---
 Deze ochtend was er geen brood om te ontbijten. Normaal gezien koopt Revo, onze kok, iedere ochtend brood. Vandaag was er echter geen brood meer in de shop. Revo kwam er zich persoonlijk voor excuseren. Echt een vriendelijke gast! Jeroen vertrok dan maar zonder ontbijt naar het Newman, maar ik had geen zin in een hele voormiddag koppijn. Na een klein omtoertje langs vitus&#8217; shop had ik een lekker ontbijtje: mandazi. De locals beschrijven het als &#8220;fried dough&#8221; en meer valt er ook niet aan uit te leggen. Men neme ene bol deeg. Men plaatse de bol deeg in heet vet. Men hale betreffende bol uit het vet, et voila: Een ontbijt voor Merlijn.
@@ -40,10 +41,9 @@ Volgende op de lijst: een ventilator met kapotte stroomkabel. Stroomkabel gefixt
   
 Next: scherm met kapotte vga kabel. Die wou ik vermaken met een kabel uit een oude monitor. De case van de monitor openvijzen was moeilijker dan verwacht. Gelukkig hadden we een hamer.
 
-[<img title="DSC_0272.jpg" class="alignnone size-full" alt="image" src="http://178.62.244.89/wp-content/uploads/2013/03/wpid-DSC_0272.jpg" />][1]
+{{< fancybox path="/img/old/" file="wpid-DSC_0272.jpg"  caption="" >}}
 
 De 2 kabels waren spijtig genoeg niet compatibel.
 
 Om 17.30 zijn we terug vertrokken naar de aqua lodge. Ik ben direct in het water gesprongen voor mijn dagelijks snorkeluurtje. Er was veel stroming. Hoewel ik al iedere dag ben gaan snorkelen heb ik toch nog veel nieuwe soorten vissen gezien. Onder andere een lange vis die leek op een slang. Bij het avondeten vertelde Ben mij dat dat een aal was. Blijkbaar een zeer goed teken want die vis is zeer kieskeurig en zwemt niet in vervuild water. Ben vertelde dat de waterkwaliteit de laatste 10 jaar veel verbeterd is. Vreemd genoeg begon de verbetering net op het moment dat de stadsgenerator stopte met zijn afvalwater in het meer te dumpen. Wie had dat nu gedacht dat motorolie slecht is voor het milieu!
 
- [1]: http://178.62.244.89/wp-content/uploads/2013/03/wpid-DSC_0272.jpg

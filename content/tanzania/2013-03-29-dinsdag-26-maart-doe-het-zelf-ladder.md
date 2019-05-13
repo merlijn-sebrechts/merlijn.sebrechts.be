@@ -3,9 +3,10 @@ title: 'Dinsdag 26 maart: doe het zelf-ladder'
 author: Merlijn Sebrechts
 layout: post
 date: 2013-03-29
-url: /?p=146
 categories:
   - Tanzania
+type: "post"
+
 
 ---
 We hebben ons kot nog niet geopend en Katrien komt al bij ons &#8220;het internet ligt uit, ik heb niets van verbinding meer&#8221;. Een klein onderzoekje later vinden we het probleem: de switch in mandeleo staat weer uit. Ik ben al dien boel beu en vraag aan Katrien of we geen rechtstreekse kabel mogen trekken. &#8220;Voor mij goed, maar je hebt de toestemming van Edison nodig&#8221;. Edison vind het ook een goed idee dus ik begin. Ik kies een mooi, lang kabeltje uit en begin het samen met Jeroen op te hangen. Daarvoor hebben we een ladder nodig. We nemen een homemade ladder, gemaakt van de dikste stronken hout die ze konden vinden. Na een uurtje werken moeten we bepaalde treden terug vastnagelen. Alles is hier een avontuur in Afrika :).
