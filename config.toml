@@ -1,6 +1,6 @@
-baseurl                 = "https://merlijn.sebrechts.be"
+baseurl                 = "/"
 DefaultContentLanguage  = "en"
-title                   = "Merlijn's Magical Mind"
+title                   = "Merlijn Sebrechts"
 theme                   = "hugo-future-imperfect-slim"
 preserveTaxonomyNames   = true
 paginate                = 3
@@ -23,7 +23,7 @@ disableLanguages        = [""]
   # Sets where "View More Posts" links to
   viewMorePostsLink     = "/blog/"
   # Activate Estimated Reading Times, which appear in the post headers
-  readingTime           = true
+  readingTime           = false
   # Sets which Social Share links appear in posts.
   # Options are twitter, facebook, reddit, linkedin, stumbleupon, pinterest, email
   socialShare           = []
@@ -45,18 +45,19 @@ disableLanguages        = [""]
 
   [params.header]
     # Sets the navbarTitle that appears in the top left of the navigation bar
-    navbarTitle         = "Merlijn's Magical Mind"
+    navbarTitle         = "Merlijn Sebrechts"
     # Sets navbarTitle to match the section of the website
-    dynamicTitles       = true
+    dynamicTitles       = false
     searchMenu          = true
-    shareMenu           = true
+    shareMenu           = false
     languageMenu        = true
 
   # These are optional params related to the sidebar. They are recommended, but not
   # required for proper functionality. HTML is supported within the params.
   [params.intro]
-    header                = "Merlijn's </br>Magical Mind"
-    paragraph             = "cat /merlijn/brain"
+    header                = "Merlijn Sebrechts"
+    paragraph             = """Let's talk meta! </br></br>
+                               <a href="/nl/">Check out the Dutch part of this blog.</a>"""
     rssIntro              = true
     socialIntro           = true
 
@@ -122,8 +123,8 @@ disableLanguages        = [""]
     weight            = 3
 
   [[menu.main]]
-    name              = "Tanzania"
-    url               = "/tanzania/"
+    name              = "Tanzania (Dutch)"
+    url               = "/nl/tanzania/"
     identifier        = "far fa-newspaper"
     weight            = 3
 
@@ -140,18 +141,34 @@ disableLanguages        = [""]
     LanguageName        = "English"
     weight              = 1
 
-  # [Languages.nl]
-  #   languageCode        = "nl"
-  #   LanguageName        = "Nederlands"
-  #   title               = "Merlijn zijn Magisch Brein"
-  #   description         = "Un thème de HTML5 UP, porté par Julio Pescador. Slimmed et amélioré par Patrick Collins. Multilingue par StatnMap. Propulsé par Hugo. "
-  #   weight              = 2
+  [Languages.nl]
+    languageCode        = "nl"
+    LanguageName        = "Nederlands"
+    title               = "Merlijn Sebrechts"
+    description         = "Meer context bij technologie"
+    weight              = 2
 
-  #   [[Languages.nl.menu.main]]
-  #     name              = "Accueil"
-  #     url               = "/"
-  #     identifier        = "fas fa-home"
-  #     weight            = 1
+  [Languages.nl.params.intro]
+    header                = "Merlijn Sebrechts"
+    paragraph             = "Meer context bij technologie"
+    rssIntro              = true
+    socialIntro           = true
+
+
+    # This appears at the top of the sidebar above params.intro.header.
+    # A width of less than 100px is recommended from a design perspective.
+    [Languages.nl.params.intro.pic]
+      src                 = "/img/main/Merlijn Sebrechts100x100.jpg"
+      # Masks image in a certain shape. Supported are circle, triangle, diamond, and hexagon.
+      shape               = "circle"
+      width               = ""
+      alt                 = "Merlijn Sebrechts"
+
+    [[Languages.nl.menu.main]]
+      name              = "Tanzania"
+      url               = "/tanzania"
+      identifier        = "far fa-newspaper"
+      weight            = 1
 
   #   [[Languages.nl.menu.main]]
   #     name              = "About"
@@ -159,17 +176,17 @@ disableLanguages        = [""]
   #     identifier        = "far fa-id-card"
   #     weight            = 2
 
-  #   [[Languages.nl.menu.main]]
-  #     name              = "Blog"
-  #     url               = "/blog/"
-  #     identifier        = "far fa-newspaper"
-  #     weight            = 3
+    [[Languages.nl.menu.main]]
+      name              = "Blog (Engels)"
+      url               = "../blog/"
+      identifier        = "far fa-newspaper"
+      weight            = 3
 
-  #   [[Languages.nl.menu.main]]
-  #     name              = "Catégories"
-  #     url               = "/categories/"
-  #     identifier        = "fas fa-sitemap"
-  #     weight            = 5
+    [[Languages.nl.menu.main]]
+      name              = "Categorieën"
+      url               = "/categories/"
+      identifier        = "fas fa-sitemap"
+      weight            = 5
 
 # Sets Social Media icons to appear and link to your account. Value should be your
 # username unless otherwise noted. These are the icons affected by socialAppearAtTop
