@@ -1,11 +1,12 @@
 ---
-title: cat ./pragmatic-docker-day
+title: Pragmatic Docker Day 2015
 author: Merlijn
 layout: post
 date: 2015-04-25
 categories:
   - 'Ubuntu & Linux'
 type: "post"
+featured: "../../old/container-2934279_1280.jpg"
 ---
 I got a ticket to the Pragmatic Docker Day meetup in Ghent in exchange for writing a blogpost about it. Free food, drinks & awesome talks for a whole day, who would want to miss that? _Not me!_
 
@@ -38,3 +39,5 @@ The docker container still uses the host's kernel. This means that a docker cont
 ## You can still run containers on Windows?!
 
 It's still possible to run Linux docker containers on Mac and Windows using boot2docker. This is basically a lightweight Linux VM. Docker containers run in this VM. This is great for development, but there might be an overhead because of the virtualization.
+
+*[Image by distel2610](https://pixabay.com/photos/container-port-loading-stacked-2934279/)*

@@ -56,8 +56,7 @@ disableLanguages        = [""]
   # required for proper functionality. HTML is supported within the params.
   [params.intro]
     header                = "Merlijn Sebrechts"
-    paragraph             = """Let's talk meta! </br></br>
-                               <a href="/nl/">Check out the Dutch part of this blog.</a>"""
+    paragraph             = """Let's talk meta!"""
     rssIntro              = true
     socialIntro           = true
 
@@ -71,7 +70,7 @@ disableLanguages        = [""]
       alt                 = "Merlijn Sebrechts"
 
   [params.sidebar]
-    about               = "test"
+    about               = """<a href="/nl/">Check out the Dutch part of this blog.</a>"""
     # Sets the number of recent posts to show in the sidebar. The default value is 5.
     postAmount          = 5
     # set to show or to hide categories in the sidebar

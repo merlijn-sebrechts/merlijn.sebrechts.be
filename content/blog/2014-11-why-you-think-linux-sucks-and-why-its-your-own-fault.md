@@ -8,6 +8,7 @@ sharing_disabled:
 categories:
   - 'Ubuntu & Linux'
 type: "post"
+featured: "../../old/dilbert-unix.png"
 ---
 Let's rid the world of one of the most prominent Linux myths: _&#8220;Desktop Linux sucks. It's just not there yet&#8221;._
 

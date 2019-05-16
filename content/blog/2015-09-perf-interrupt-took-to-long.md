@@ -2,6 +2,7 @@
 title: What does “perf interrupt took too long” mean?
 author: Merlijn
 layout: post
+featured: "../../old/Who_Watches_the_Watchmen.jpg"
 date: 2015-09-13
 categories:
   - 'Ubuntu & Linux'
@@ -37,3 +38,5 @@ Additional sources:
  [1]: https://en.wikipedia.org/wiki/Perf_(Linux)
  [2]: http://x86vmm.blogspot.nl/2005/10/linux-nmis-on-intel-64-bit-hardware.html
  [3]: https://lkml.org/lkml/2013/5/29/640
+
+*[Image by David Masters](https://en.wikipedia.org/wiki/File:Who_Watches_the_Watchmen.jpg)*
