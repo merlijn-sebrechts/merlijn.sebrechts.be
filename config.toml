@@ -1,10 +1,10 @@
-baseurl                 = "merlijn.sebrechts.be"
+baseurl                 = "/"
 DefaultContentLanguage  = "en"
 title                   = "Merlijn Sebrechts"
 theme                   = "hugo-future-imperfect-slim"
 preserveTaxonomyNames   = true
-paginate                = 3
-disqusShortname         = ""
+paginate                = 10
+disqusShortname         = "merlijn"
 googleAnalytics         = ""
 pluralizeListTitles     = false
 disableLanguages        = [""]
@@ -30,7 +30,7 @@ disableLanguages        = [""]
 
   [params.meta]
     # Sets the meta tag description
-    description         = "cat /merlijn/brain"
+    description         = "Let's talk meta!"
     # Sets the meta tag author
     author              = "Merlijn Sebrechts"
     # If you would like to add more comprehensive favicon support passed root
@@ -70,7 +70,7 @@ disableLanguages        = [""]
       alt                 = "Merlijn Sebrechts"
 
   [params.sidebar]
-    about               = """<a href="/nl/">Check out the Dutch part of this blog.</a>"""
+    about               = """Curious for more? <a href="/nl/">Check out the Dutch part of this blog.</a>"""
     # Sets the number of recent posts to show in the sidebar. The default value is 5.
     postAmount          = 5
     # set to show or to hide categories in the sidebar
@@ -83,22 +83,6 @@ disableLanguages        = [""]
     rssFooter           = true
     # Sets Social Media icons to appear on the sidebar
     socialFooter        = true
-
-  # Disqus will take priority over Staticman (github.com/eduardoboucas/staticman)
-  # due to its ease of use. Feel free to check out both and decide which you would
-  # prefer to use. See Staticman.yml for additional settings.
-  [params.staticman]
-    # Sets Statiman to be active
-    staticman           = false
-    # Sets the location for Staticman to connect to
-    username            = ""
-    repo                = ""
-    branch              = ""
-
-    [params.staticman.recaptcha]
-      recaptcha         = false
-      siteKey           = "" # Site Key
-      encryptedKey      = ""
 
 [menu]
   # Sets the menu items in the navigation bar
@@ -125,7 +109,7 @@ disableLanguages        = [""]
     name              = "Tanzania (Dutch)"
     url               = "/nl/tanzania/"
     identifier        = "far fa-newspaper"
-    weight            = 3
+    weight            = 4
 
   [[menu.main]]
     name              = "Categories"
@@ -146,6 +130,10 @@ disableLanguages        = [""]
     title               = "Merlijn Sebrechts"
     description         = "Meer context bij technologie"
     weight              = 2
+
+  [Languages.nl.params]
+    viewMorePostsLink     = "/tanzania/"
+
 
   [Languages.nl.params.intro]
     header                = "Merlijn Sebrechts"
