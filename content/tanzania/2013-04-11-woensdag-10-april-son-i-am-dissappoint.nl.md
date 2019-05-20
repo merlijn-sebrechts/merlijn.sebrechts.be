@@ -1,6 +1,5 @@
 ---
 title: 'Woensdag 10 april: son, I am dissappoint!'
-author: Merlijn Sebrechts
 layout: post
 date: 2013-04-11
 categories:

@@ -1,6 +1,5 @@
 ---
 title: Verjaardag!
-author: Merlijn Sebrechts
 layout: post
 date: 2013-03-13
 categories:

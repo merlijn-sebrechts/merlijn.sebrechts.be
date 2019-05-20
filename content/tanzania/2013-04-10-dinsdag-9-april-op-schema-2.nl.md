@@ -1,6 +1,5 @@
 ---
 title: 'Dinsdag 9 april: op schema'
-author: Merlijn Sebrechts
 layout: post
 date: 2013-04-10
 categories:

@@ -1,6 +1,5 @@
 ---
 title: 'Vrijdag 3 mei: Die hp -_-'
-author: Merlijn Sebrechts
 layout: post
 date: 2013-05-05
 categories:

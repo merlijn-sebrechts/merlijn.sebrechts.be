@@ -1,6 +1,5 @@
 ---
 title: 'Zaterdag 16 Maart: ik ben een aap'
-author: Merlijn Sebrechts
 layout: post
 date: 2013-03-19
 categories:

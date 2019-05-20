@@ -1,6 +1,5 @@
 ---
 title: 'Donderdag 20 maart: leren inbreken'
-author: Merlijn Sebrechts
 layout: post
 date: 2013-03-21
 categories:

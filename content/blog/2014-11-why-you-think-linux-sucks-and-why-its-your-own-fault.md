@@ -1,6 +1,5 @@
 ---
 title: Windows power users are not Linux power users!
-author: Merlijn
 layout: post
 date: 2014-11-08
 sharing_disabled:

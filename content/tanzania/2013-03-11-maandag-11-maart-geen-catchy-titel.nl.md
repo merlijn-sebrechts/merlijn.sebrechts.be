@@ -1,6 +1,5 @@
 ---
 title: 'Maandag 11 maart: geen catchy titel'
-author: Merlijn Sebrechts
 layout: post
 date: 2013-03-11
 categories:

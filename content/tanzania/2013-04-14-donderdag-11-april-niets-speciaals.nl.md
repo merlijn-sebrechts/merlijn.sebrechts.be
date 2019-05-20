@@ -1,6 +1,5 @@
 ---
 title: 'Donderdag 11 april: niets speciaals'
-author: Merlijn Sebrechts
 layout: post
 date: 2013-04-14
 categories:

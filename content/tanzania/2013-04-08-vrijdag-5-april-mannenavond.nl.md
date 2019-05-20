@@ -1,6 +1,5 @@
 ---
 title: 'Vrijdag 5 april: mannenavond'
-author: Merlijn Sebrechts
 layout: post
 date: 2013-04-08
 categories:

@@ -1,6 +1,5 @@
 ---
 title: 'Dinsdag 12 maart: 2 fruitsapjes'
-author: Merlijn Sebrechts
 layout: post
 date: 2013-03-12
 categories:

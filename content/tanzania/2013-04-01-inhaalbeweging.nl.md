@@ -1,6 +1,5 @@
 ---
 title: Inhaalbeweging
-author: Merlijn Sebrechts
 layout: post
 date: 2013-04-01
 categories:

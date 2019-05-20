@@ -1,6 +1,5 @@
 ---
 title: 'Dinsdag woensdag donderdag 16-17-18 April: Computers repareren'
-author: Merlijn Sebrechts
 layout: post
 date: 2013-04-19
 categories:

@@ -1,6 +1,5 @@
 ---
 title: '4 maart: eerste dag in kigoma'
-author: Merlijn Sebrechts
 layout: post
 date: 2013-03-05
 categories:

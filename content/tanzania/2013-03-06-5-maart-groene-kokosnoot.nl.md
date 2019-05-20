@@ -1,6 +1,5 @@
 ---
 title: '5 maart: groene kokosnoot'
-author: Merlijn Sebrechts
 layout: post
 date: 2013-03-06
 categories:

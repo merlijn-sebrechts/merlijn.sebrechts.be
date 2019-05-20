@@ -1,6 +1,5 @@
 ---
 title: 'Donderdag 2 mei: Toch hoop'
-author: Merlijn Sebrechts
 layout: post
 date: 2013-05-04
 categories:

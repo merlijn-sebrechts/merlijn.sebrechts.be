@@ -1,6 +1,5 @@
 ---
 title: What does “perf interrupt took too long” mean?
-author: Merlijn
 layout: post
 featured: "../../old/Who_Watches_the_Watchmen.jpg"
 date: 2015-09-13

@@ -1,6 +1,5 @@
 ---
 title: 'Maandag 18, dinsdag 19 woensdag 20 maart: het gaat niet vooruit.'
-author: Merlijn Sebrechts
 layout: post
 date: 2013-03-21
 categories:

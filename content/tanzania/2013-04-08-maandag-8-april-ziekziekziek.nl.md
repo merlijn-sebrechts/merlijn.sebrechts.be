@@ -1,6 +1,5 @@
 ---
 title: 'Maandag 8 april: ziekziekziek'
-author: Merlijn Sebrechts
 layout: post
 date: 2013-04-08
 categories:

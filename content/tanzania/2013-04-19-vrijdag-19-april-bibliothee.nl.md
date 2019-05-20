@@ -1,6 +1,5 @@
 ---
 title: 'Vrijdag 19 april: Bibliotheek in access'
-author: Merlijn Sebrechts
 layout: post
 date: 2013-04-19
 categories:

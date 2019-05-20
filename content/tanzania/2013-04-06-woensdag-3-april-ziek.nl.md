@@ -1,6 +1,5 @@
 ---
 title: 'Woensdag 3 april: ziek'
-author: Merlijn Sebrechts
 layout: post
 date: 2013-04-06
 categories:

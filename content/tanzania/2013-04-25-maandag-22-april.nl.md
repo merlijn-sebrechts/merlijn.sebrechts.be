@@ -1,6 +1,5 @@
 ---
 title: Maandag 22 april
-author: Merlijn Sebrechts
 layout: post
 date: 2013-04-25
 categories:

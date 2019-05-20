@@ -1,6 +1,5 @@
 ---
 title: Zondag brunchdag
-author: Merlijn Sebrechts
 layout: post
 date: 2013-04-03
 categories:

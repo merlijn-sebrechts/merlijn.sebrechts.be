@@ -1,4 +1,4 @@
-baseurl                 = "/"
+baseurl                 = "merlijn.sebrechts.be"
 DefaultContentLanguage  = "en"
 title                   = "Merlijn Sebrechts"
 theme                   = "hugo-future-imperfect-slim"

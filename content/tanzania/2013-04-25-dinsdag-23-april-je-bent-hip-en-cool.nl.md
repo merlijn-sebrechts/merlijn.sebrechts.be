@@ -1,6 +1,5 @@
 ---
 title: 'Dinsdag 23 april: Je bent hip, en cool..'
-author: Merlijn Sebrechts
 layout: post
 date: 2013-04-25
 categories:

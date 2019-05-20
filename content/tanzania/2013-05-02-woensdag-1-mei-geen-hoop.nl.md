@@ -1,6 +1,5 @@
 ---
 title: 'Woensdag 1 mei: geen hoop'
-author: Merlijn Sebrechts
 layout: post
 date: 2013-05-02
 categories:

@@ -1,6 +1,5 @@
 ---
 title: 'Vrijdag 15 maart: Proper muggennet'
-author: Merlijn Sebrechts
 layout: post
 date: 2013-03-19
 categories:

@@ -1,6 +1,5 @@
 ---
 title: Veranderingen in mail-systeem
-author: Merlijn Sebrechts
 layout: post
 date: 2013-03-21
 categories:

@@ -1,6 +1,5 @@
 ---
 title: 'Dinsdag 30 april: Hopen'
-author: Merlijn Sebrechts
 layout: post
 date: 2013-05-02
 categories:

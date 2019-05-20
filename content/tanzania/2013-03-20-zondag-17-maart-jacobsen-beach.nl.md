@@ -1,6 +1,5 @@
 ---
 title: 'Zondag 17 Maart: Jacobsen Beach'
-author: Merlijn Sebrechts
 layout: post
 date: 2013-03-20
 categories:

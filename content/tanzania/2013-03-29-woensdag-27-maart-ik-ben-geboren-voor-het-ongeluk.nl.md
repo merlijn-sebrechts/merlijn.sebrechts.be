@@ -1,6 +1,5 @@
 ---
 title: 'Woensdag 27 maart: ik ben geboren voor het ongeluk'
-author: Merlijn Sebrechts
 layout: post
 date: 2013-03-29
 categories:

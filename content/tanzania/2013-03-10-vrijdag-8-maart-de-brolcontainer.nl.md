@@ -1,6 +1,5 @@
 ---
 title: 'Vrijdag 8 maart: de brolcontainer'
-author: Merlijn Sebrechts
 layout: post
 date: 2013-03-10
 categories:

@@ -1,6 +1,5 @@
 ---
 title: 'Vrijdag: doe-het-zelf weg'
-author: Merlijn Sebrechts
 layout: post
 date: 2013-03-23
 categories:

@@ -1,6 +1,5 @@
 ---
 title: 'Maandag 15 april: vicieuze-BIOS-cirkel'
-author: Merlijn Sebrechts
 layout: post
 date: 2013-04-17
 categories:

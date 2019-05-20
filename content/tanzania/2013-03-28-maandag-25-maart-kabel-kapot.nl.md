@@ -1,6 +1,5 @@
 ---
 title: 'Maandag 25 maart: kabel kapot'
-author: Merlijn Sebrechts
 layout: post
 date: 2013-03-28
 categories:

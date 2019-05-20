@@ -1,6 +1,5 @@
 ---
 title: Pragmatic Docker Day 2015
-author: Merlijn
 layout: post
 date: 2015-04-25
 categories:

@@ -1,6 +1,5 @@
 ---
 title: man -f stage
-author: Merlijn Sebrechts
 layout: post
 date: 2013-02-24
 categories:

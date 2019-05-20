@@ -1,6 +1,5 @@
 ---
 title: 'Donderdag 14 maart: Newman college'
-author: Merlijn Sebrechts
 layout: post
 date: 2013-03-18
 categories:

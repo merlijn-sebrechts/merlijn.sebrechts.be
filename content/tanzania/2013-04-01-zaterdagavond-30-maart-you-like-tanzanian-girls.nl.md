@@ -1,6 +1,5 @@
 ---
 title: 'Zaterdagavond 30 maart: “you like Tanzanian girls?'
-author: Merlijn Sebrechts
 layout: post
 date: 2013-04-01
 categories:

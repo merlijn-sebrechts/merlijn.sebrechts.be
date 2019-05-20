@@ -1,6 +1,5 @@
 ---
 title: 'Dinsdag 26 maart: doe het zelf-ladder'
-author: Merlijn Sebrechts
 layout: post
 date: 2013-03-29
 categories:

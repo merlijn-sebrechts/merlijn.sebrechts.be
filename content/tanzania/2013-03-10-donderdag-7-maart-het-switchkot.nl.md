@@ -1,6 +1,5 @@
 ---
 title: 'Donderdag 7 maart: het switchkot'
-author: Merlijn Sebrechts
 layout: post
 date: 2013-03-10
 categories:

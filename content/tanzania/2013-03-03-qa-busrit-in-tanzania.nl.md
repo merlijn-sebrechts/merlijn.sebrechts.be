@@ -1,6 +1,5 @@
 ---
 title: 'Q&A: busrit in Tanzania'
-author: Merlijn Sebrechts
 layout: post
 date: 2013-03-03
 categories:

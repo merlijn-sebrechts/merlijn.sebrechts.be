@@ -1,6 +1,5 @@
 ---
 title: 'Donderdag 4 april: stroom is moe'
-author: Merlijn Sebrechts
 layout: post
 date: 2013-04-06
 categories:
