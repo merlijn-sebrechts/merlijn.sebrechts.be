@@ -3,7 +3,7 @@ title: How I became a cyborg pt1
 layout: post
 date: 2019-10-10
 type: "post"
-featured: "../../2019/echo-aorta-valve-regurgitation.jpg"
+featured: "/2019/echo-aorta-valve-regurgitation.jpg"
 ---
 
 ## Close Encounters of the Third Kind

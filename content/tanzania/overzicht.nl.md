@@ -5,7 +5,7 @@ date: 2019-05-20
 categories:
   - Tanzania
 type: "post"
-featured: "../../old/2013-03-13 18.57.28.jpg"
+featured: "/old/2013-03-13 18.57.28.jpg"
 ---
 
 Kigoma, Tanzania was mijn uitvalsbasis van februari tot mei 2013. In kader van mijn opleiding heb ik drie maand stage gelopen in het AHADI newman institute of social work. Om het thuisfront op de hoogte te houden van mijn avonturen heb ik doorheen deze drie maand bijna iedere dag een blogpost geschreven.
