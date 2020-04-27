@@ -2,6 +2,7 @@
 title: "Tutorial: S4A on Ubuntu"
 layout: post
 date: 2020-02-23
+featured: "/2020/s4a/s4a-banner.png"
 type: "post"
 ---
 
