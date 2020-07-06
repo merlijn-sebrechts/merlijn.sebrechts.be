@@ -9,6 +9,9 @@ googleAnalytics         = ""
 pluralizeListTitles     = false
 disableLanguages        = [""]
 
+[outputs]
+    home = ["html", "json"]
+
 [params]
   mainSections = ["blog", "post"]
   # Loads CSS and JavaScript files. The variable is an array so that you can load

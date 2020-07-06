@@ -1,6 +1,7 @@
 +++
 title = "About Merlijn"
 date = "2014-04-09"
+layout = "about"
 +++
 
 I'm a PHD researcher and Teaching Assistant at Ghent University - IDLab - imec. My research specializes in solving big data challenges using cloud modelling languages. As a passionate user of and contributor to open source technologies, I like to stand on the shoulders of giants to solve the challenges of tomorrow.
