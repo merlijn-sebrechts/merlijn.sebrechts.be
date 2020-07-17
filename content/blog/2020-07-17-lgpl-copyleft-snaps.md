@@ -61,3 +61,5 @@ Some might argue that a snap is statically linked because every library is in th
 I use the FAQ as an authoritative source because it hold legal value and the language is a lot more clear than the licenses themselves.
 
 In license infringement cases, the *spirit of the license* holds value. This means it's important what the creators of a license wanted to achieve with it. The GNU GPL FAQ is written by the creators of the GPL license and explains what the creators' intention was. Because of this, the FAQ can be used in court to explain what the license means.
+
+> Note: I am a human being, and like most human beings, I make mistakes. Did you find an issue with this article? Let me know in the comments, and I'll be happy to correct it!
