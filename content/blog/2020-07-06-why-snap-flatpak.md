@@ -6,11 +6,11 @@ featured: "/2020/snap-flatpak/packaging.jpg"
 type: "post"
 ---
 
-> Note: This article talks about Snaps and Flatpaks. This is the software behind two universal Linux app stores: the [Snap Store](https://snapcraft.io/store) and [Flathub](https://flathub.org). If you are not familiar with these, please first read [The future of Linux desktop application delivery is Flatpak and Snap](https://www.zdnet.com/article/the-future-of-linux-desktop-application-delivery-is-flatpak-and-snap/).
-
 The [Snap Store](https://snapcraft.io/store) and [Flathub](https://flathub.org) are two universal app stores for Linux. They are very different from how traditional software distribution works. As is always the case with new software, the question "why do we need this?" often arises. "Including software in distribution repositories has worked for so long, so why do we need to change it?"
 
-There are many reasons, but this post will discuss two:
+> Note: This article talks about Snaps and Flatpaks. This is the software behind two universal Linux app stores: the [Snap Store](https://snapcraft.io/store) and [Flathub](https://flathub.org). If you are not familiar with these, please first read [The future of Linux desktop application delivery is Flatpak and Snap](https://www.zdnet.com/article/the-future-of-linux-desktop-application-delivery-is-flatpak-and-snap/).
+
+There are many reasons we need Snaps and Flatpaks, but this post will discuss two:
 
 * We need it for software that is not developed at the same speed as distributions.
 * We need it for software that is too "messy" for distributions.
@@ -46,3 +46,5 @@ Since these issues are universal, people have come up with other very smart solu
 * [AppImage](https://appimage.org/) solves these issues by creating a "fat binary" for each application. Each binary contains all the dependencies an application needs. One advantage is that an AppImage runs by itself; you do not need an additional package manager to run an app.
 * [Nix](https://nixos.org/) is a package manager which allows multiple installed apps to use different versions of the same libraries. One advantage over Snaps and Flatpaks is that applications generally use less space because shared libraries are not actually duplicated.
 * "Rolling" distributions such as [Manjaro](https://manjaro.org/) do not release every X months, but continuously releases updates at the same pace of the actual developers of the software. This solves the "too fast" apps, but not the other issues. This is one of the reasons Manjaro also includes Snapd and Flatpak by default.
+
+> Note: I am a human being, and like most human beings, I make mistakes. Did you find an issue with this article? Let me know in the comments, and I'll be happy to correct it!
