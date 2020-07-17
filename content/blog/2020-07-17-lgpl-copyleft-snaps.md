@@ -6,7 +6,7 @@ featured: "/2020/snap-flatpak/snap-flatpak-gpl.png"
 type: "post"
 ---
 
-The question often comes up of how [Snaps](https://snapcraft.io/) and [Flatpaks](https://flatpak.github.io/) influence copyleft, GPL and LGPL licenses often comes up. It is a common misconception that these new packaging formats significantly influence license compliance.
+The question often comes up of how [Snaps](https://snapcraft.io/) and [Flatpaks](https://flatpak.github.io/) influence copyleft, GPL and LGPL licenses. It is a common misconception that these new packaging formats significantly influence license compliance.
 
 *Disclaimer: I am not a lawyer.*
 
