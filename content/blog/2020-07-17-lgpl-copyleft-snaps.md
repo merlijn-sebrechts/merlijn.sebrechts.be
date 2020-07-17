@@ -25,7 +25,7 @@ Two questions arise about GPL licensing and snaps.
 
 No.
 
-When you add copyleft code to your application, you need to open source your entire application. The GPL is the most widely-used copyleft license and it uses the term *combined work* to describe an application which includes GPL code. The entire *combined work* needs to be open source, even is only a small part of it is GPL.
+When you add copyleft code to your application, you need to open source your entire application. The GPL is the most widely-used copyleft license and it uses the term *combined work* to describe an application which includes GPL code. The entire *combined work* needs to be open source, even if only a small part is GPL.
 
 The GPL clearly makes the distinction between a "combined work" and an “aggregate”:
 
@@ -58,8 +58,8 @@ Some might argue that a snap is statically linked because every library is in th
 
 ## *Note*
 
-I use the FAQ as an authoritative source because it hold legal value and the language is a lot more clear than the licenses themselves.
+I use the FAQ as an authoritative source because it hold legal value and the language is a lot clearer than the licenses themselves.
 
-In license infringement cases, the *spirit of the license* holds value. This means it's important what the creators of a license wanted to achieve with it. The GNU GPL FAQ is written by the creators of the GPL license and explains what the creators' intention was. Because of this, the FAQ can be used in court to explain what the license means.
+In license infringement cases, the *spirit of the license* holds value. This means what the creators of a license wanted to achieve with it, is important. The GNU GPL FAQ is written by the creators of the GPL license and explains what their intention was. Because of this, the FAQ can be used in court to explain what the license means.
 
 > Note: I am a human being, and like most human beings, I make mistakes. Did you find an issue with this article? Let me know in the comments, and I'll be happy to correct it!
