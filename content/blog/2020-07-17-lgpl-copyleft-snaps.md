@@ -13,7 +13,7 @@ The question often comes up of how [Snaps](https://snapcraft.io/) and [Flatpaks]
 **Distributing your software in a Snap has no effect on GPL copyleft and LGPL compliance.**
 
 * It has no effect on copyleft because [containers do not trigger copyleft](https://www.gnu.org/licenses/gpl-faq.html#AggregateContainers) according to the GNU GPL FAQ *[see note]*.
-* It has not effect on LGPL compliance because the user can modify the LGPL library and relink the application using `LD_LIBRARY_PATH` or by unsquashing the snap.
+* It has no effect on LGPL compliance because the user can modify the LGPL library and relink the application using `LD_LIBRARY_PATH` or by unsquashing the snap.
 
 If your software is compliant when running outside of a snap, it will still be compliant when running inside of a snap.
 
