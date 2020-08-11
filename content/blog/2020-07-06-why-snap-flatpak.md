@@ -8,7 +8,7 @@ type: "post"
 
 The [Snap Store](https://snapcraft.io/store) and [Flathub](https://flathub.org) are two universal app stores for Linux. They are very different from how traditional software distribution works. As is always the case with new software, the question "why do we need this?" often arises. "Including software in distribution repositories has worked for so long, so why do we need to change it?"
 
-> Note: This article talks about Snaps and Flatpaks. This is the software behind two universal Linux app stores: the [Snap Store](https://snapcraft.io/store) and [Flathub](https://flathub.org). If you are not familiar with these, please first read [The future of Linux desktop application delivery is Flatpak and Snap](https://www.zdnet.com/article/the-future-of-linux-desktop-application-delivery-is-flatpak-and-snap/).
+> Note: for an introduction into Flatpak and Snap, please read [The future of Linux desktop application delivery is Flatpak and Snap](https://www.zdnet.com/article/the-future-of-linux-desktop-application-delivery-is-flatpak-and-snap/).
 
 There are many reasons we need Snaps and Flatpaks, but this post will discuss two:
 
