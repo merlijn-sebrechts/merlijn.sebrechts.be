@@ -5,9 +5,12 @@ theme                   = "hugo-future-imperfect-slim"
 preserveTaxonomyNames   = true
 paginate                = 10
 disqusShortname         = "merlijn"
-googleAnalytics         = ""
+googleAnalytics         = "UA-172953075-1"
 pluralizeListTitles     = false
 disableLanguages        = [""]
+
+[markup.goldmark.renderer]
+unsafe= true
 
 [outputs]
     home = ["html", "json"]
