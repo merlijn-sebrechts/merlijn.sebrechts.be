@@ -13,7 +13,7 @@ disableLanguages        = [""]
 unsafe= true
 
 [outputs]
-    home = ["html", "json"]
+    home = ["html", "json", "rss"]
 
 [params]
   mainSections = ["blog", "post"]
