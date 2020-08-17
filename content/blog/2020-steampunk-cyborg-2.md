@@ -54,7 +54,7 @@ My mood quickly changed in the morning, however. There is a limit to how much pa
 >
 > Somehow, this picture should show my right lung is collapsed. I can't see it though.. The clamps are from sensors taped to me and the very thin wires going to my heart are for a temporary pace-maker. In the middle you see six tied up metal wires used to hold my ribs closed. You can see my new aorta valve to the right of the fourth wire from the top.
 
-When I told the nurse I had real difficulties with the noise, she and explained that they wanted to move me from the ICU to mid-care, which is a lot more quiet, but my blood pressure was still too high to do that. Even though my blood pressure kept lowering throughout the night, for some strange reason it shot back up when the stampede of interns started running through the ICU yelling at each other. The only way to get my blood pressure down was to give me a pill.
+When I told the nurse I had real difficulties with the noise, she explained they wanted to move me from the ICU to mid-care, which is a lot more quiet, but my blood pressure was still too high to do that. Even though my blood pressure kept lowering throughout the night, for some strange reason it shot back up when the stampede of interns started running through the ICU yelling at each other. The only way to get my blood pressure down was to give me a pill.
 
 The pill came with only one side effect: me puking my guts out.
 
