@@ -1,8 +1,12 @@
 ---
 title: How I became a cyborg pt1
 layout: post
-date: 2019-10-10
 type: "post"
+date: 2019-10-10
+categories:
+  - 'Health'
+tags:
+  - 'Heart'
 featured: "/2019/echo-aorta-valve-regurgitation.jpg"
 ---
 
@@ -59,6 +63,8 @@ source: https://askubuntu.com/a/610945/172367
 -->
 
 Next step: the heart surgery itself! We scheduled it about six weeks after the coronarography so that I had some time to finish up at work and go on a holiday. However, some complications foiled the plan of finishing up at work. All the probing in my groin tore one of my veins, causing a pseudo-aneurism. After a week of trying to fix it from the outside, the doctors gave up and did a surgery under full anesthesia to sew everything back together. Long story short; I ended up losing four of those six weeks to recovering from the coronarography. Thankfully, the doctor cleared me to go on a holiday after that.
+
+[How I became a cyborg pt2](/blog/2020-steampunk-cyborg-2)
 
 <!--
 

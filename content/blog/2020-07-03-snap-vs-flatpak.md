@@ -1,9 +1,14 @@
 ---
 title: "A fundamental difference between Snap and Flatpak"
 layout: post
-date: 2020-07-03
-featured: "/2020/snap-flatpak/snap-flatpak-banner.png"
 type: "post"
+date: 2020-07-03
+categories:
+  - 'Linux'
+tags:
+  - 'Snap'
+  - 'Flatpak'
+featured: "/2020/snap-flatpak/snap-flatpak-banner.png"
 ---
 
 Snaps and Flatpaks are often compared to each other because they both make it super easy for Linux users to *get the latest versions of desktop applications*. If a Linux user wants to install the latest version of apps like Slack, Krita or Blender, either tool will work just fine. There is one fundamental difference between Snaps and Flatpaks, however. While both are systems for distributing Linux apps, snap is also a tool *to build Linux Distributions*.

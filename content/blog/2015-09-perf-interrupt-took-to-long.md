@@ -1,11 +1,11 @@
 ---
 title: What does “perf interrupt took too long” mean?
 layout: post
+type: "post"
 featured: "/old/Who_Watches_the_Watchmen.jpg"
 date: 2015-09-13
 categories:
-  - 'Ubuntu & Linux'
-type: "post"
+  - 'Linux'
 ---
 
 ## Wifi problems

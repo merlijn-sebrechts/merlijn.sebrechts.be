@@ -1,12 +1,15 @@
 ---
 title: What's up with CRI-O, Kata Containers and Podman?
 layout: post
+type: "post"
 date: 2020-01-14
 categories:
-  - 'Ubuntu & Linux'
-type: "post"
+  - 'Linux'
+tags:
+  - 'Containers'
+  - 'Docker'
+  - 'k8s'
 featured: "/2020/container-runtimes-banner.jpg"
-#featured: "/2020/container-ship-banner.jpg"
 ---
 
 The container ecosystem is moving rapidly. A lot happened in 2019! It seems the container ecosystem has arrived at [the "consolidation" stage of the hype cycle](https://www.gartner.com/en/documents/3887767/understanding-gartner-s-hype-cycles):

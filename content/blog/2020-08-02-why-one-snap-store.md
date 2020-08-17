@@ -1,9 +1,13 @@
 ---
 title: "Why is there only one Snap Store?"
 layout: post
-date: 2020-08-02
-featured: "/2020/snap-flatpak/snap-store.png"
 type: "post"
+date: 2020-08-02
+categories:
+  - 'Linux'
+tags:
+  - 'Snap'
+featured: "/2020/snap-flatpak/snap-store.png"
 ---
 
 Snap and Flatpak are the basis of two universal app stores for Linux: the [Snap Store](https://snapcraft.io/store) and [Flathub](https://flathub.org/home). Interestingly, Flatpak has multiple repositories: Flathub is the main one but both Fedora and Elementary OS also host their own store. In contrast; there is only one Snap store. Why is that?

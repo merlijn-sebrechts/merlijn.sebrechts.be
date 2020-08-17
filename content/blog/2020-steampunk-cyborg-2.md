@@ -1,8 +1,12 @@
 ---
 title: "How I became a cyborg pt2"
 layout: post
-date: 2020-08-15
 type: "post"
+date: 2020-08-15
+categories:
+  - 'Health'
+tags:
+  - 'Heart'
 featured: "/2019/mechanical-valve.png"
 ---
 

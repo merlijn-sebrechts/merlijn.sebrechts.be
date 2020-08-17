@@ -1,9 +1,14 @@
 ---
 title: "Copyleft and LGPL in Snaps and Flatpaks"
 layout: post
-date: 2020-07-17
-featured: "/2020/snap-flatpak/snap-flatpak-gpl.png"
 type: "post"
+date: 2020-07-17
+categories:
+  - 'Linux'
+tags:
+  - 'Snap'
+  - 'Copyright'
+featured: "/2020/snap-flatpak/snap-flatpak-gpl.png"
 ---
 
 The question often comes up of how [Snaps](https://snapcraft.io/) and [Flatpaks](https://flatpak.github.io/) influence copyleft, GPL and LGPL licenses. It is a common misconception that these new packaging formats significantly influence license compliance.

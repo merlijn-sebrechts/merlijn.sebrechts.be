@@ -1,8 +1,12 @@
 ---
 title: Who owns my research?
 layout: post
-date: 2019-05-22
 type: "post"
+date: 2019-05-22
+categories:
+  - 'PhD'
+tags:
+  - 'Copyright'
 ---
 
 When I submitted my first paper, I realized I had no idea who owned my research! Was I authorized to transfer the rights to a journal or did I need someone else's permission? After some digging, I found the answer and wrote it all up in a neat little document. So here's the dusted off version, in case it's useful to anyone else.

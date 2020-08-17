@@ -1,10 +1,10 @@
 ---
 title: Pragmatic Docker Day 2015
 layout: post
+type: "post"
 date: 2015-04-25
 categories:
-  - 'Ubuntu & Linux'
-type: "post"
+  - 'Linux'
 featured: "/old/container-2934279_1280.jpg"
 ---
 I got a ticket to the Pragmatic Docker Day meetup in Ghent in exchange for writing a blogpost about it. Free food, drinks & awesome talks for a whole day, who would want to miss that? _Not me!_

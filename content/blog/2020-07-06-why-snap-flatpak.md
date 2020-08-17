@@ -1,9 +1,14 @@
 ---
 title: "Why Linux desktop apps need containers"
 layout: post
-date: 2020-07-06
-featured: "/2020/snap-flatpak/packaging.jpg"
 type: "post"
+date: 2020-07-06
+categories:
+  - 'Linux'
+tags:
+  - 'Snap'
+  - 'Flatpak'
+featured: "/2020/snap-flatpak/packaging.jpg"
 ---
 
 The [Snap Store](https://snapcraft.io/store) and [Flathub](https://flathub.org) are two universal app stores for Linux. They are very different from how traditional software distribution works. As is always the case with new software, the question "why do we need this?" often arises. "Including software in distribution repositories has worked for so long, so why do we need to change it?"
