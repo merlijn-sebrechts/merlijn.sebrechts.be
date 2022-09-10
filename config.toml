@@ -63,7 +63,7 @@ unsafe= true
   # required for proper functionality. HTML is supported within the params.
   [params.intro]
     header                = "Merlijn Sebrechts"
-    paragraph             = """Let's talk meta!"""
+    paragraph             = """Teaching and researching computers"""
     rssIntro              = true
     socialIntro           = true
 
