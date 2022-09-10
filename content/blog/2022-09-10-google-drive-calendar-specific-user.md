@@ -7,7 +7,7 @@ categories:
   - 'PhD'
 tags:
   - 'Google Drive'
-  - 'Google Calendar
+  - 'Google Calendar'
   - 'Gmail'
 ---
 
