@@ -1,8 +1,8 @@
 ---
-title: "Lightweight Kubernetes Controllers with WebAssembly"
+title: "Lightweight Kubernetes Operators with WebAssembly"
 layout: post
 type: "post"
-date: 2022-09-05
+date: 2022-09-28
 categories:
   - 'Linux'
 tags:
