@@ -46,7 +46,6 @@ We did a bunch of extensive performance tests to see whether this actually reduc
 
   <img src="/img/2022/wasi-operators-perf-containment.png" alt="wasi-operators-perf-containment" width="500"/>
 
-
 * Moreover, they use an additional **50% less memory** when swapped to disk during idling.
 
   <img src="/img/2022/wasi-operators-perf-unloading.png" alt="wasi-operators-perf-unloading" width="500"/>
@@ -63,6 +62,7 @@ Right now, [this](https://github.com/IBCNServices/wasm-operator) is a very rough
 
 * [The runtime](https://github.com/IBCNServices/wasm-operator) and [the modifications to kube-rs](https://github.com/IBCNServices/kube-rs) are available on Github.
 * We published [a preprint of the paper introducing this prototype at IEEE CloudNet 2022](https://arxiv.org/abs/2209.01077).
+* The [raw results and analysis code](https://github.com/IBCNServices/wasm-operator-results) is available on GitHub.
 * For even more information, read [Tim Ramlot's master's thesis about this framework](https://lib.ugent.be/fulltxt/RUG01/003/063/694/RUG01-003063694_2022_0001_AC.pdf).
 
 ## Acknowledgements
