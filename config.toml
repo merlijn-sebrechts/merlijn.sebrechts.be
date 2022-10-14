@@ -63,14 +63,14 @@ unsafe= true
   # required for proper functionality. HTML is supported within the params.
   [params.intro]
     header                = "Merlijn Sebrechts"
-    paragraph             = """Teaching and researching computers"""
+    paragraph             = """Teaching and researching </br> computer science"""
     rssIntro              = true
     socialIntro           = true
 
     # This appears at the top of the sidebar above params.intro.header.
     # A width of less than 100px is recommended from a design perspective.
     [params.intro.pic]
-      src                 = "/img/main/Merlijn Sebrechts100x100.jpg"
+      src                 = "/img/main/merlijn-sebrechts-square.jpg"
       # Masks image in a certain shape. Supported are circle, triangle, diamond, and hexagon.
       shape               = "circle"
       width               = ""
