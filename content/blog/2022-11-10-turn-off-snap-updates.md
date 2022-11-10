@@ -21,7 +21,7 @@ Snaps allow users to easily install Linux applications. By default, snaps automa
 
 ## Wait, what?
 
-Yes, this was a conscious choice by the developers. Outdated and insecure Linux system are a massive problem because they are weaponized into botnets that [attack services](https://krebsonsecurity.com/2021/09/krebsonsecurity-hit-by-huge-new-iot-botnet-meris/) and [spread malware](https://en.wikipedia.org/wiki/Mirai_(malware)). In an attempt to help solve this issue, the Snap developers decided to simply make it impossible to turn off automatic updates. When Snap was initially released in 2014, automatic updates were so new to the Linux ecosystem that the developers feared every list of "10 things to do after installing _<distro>_" would include "turn off automatic updates", making the issue of insecure Linux devices even larger.
+Yes, this was a conscious choice by the developers. Outdated and insecure Linux system are a massive problem because they are weaponized into botnets that [attack services](https://krebsonsecurity.com/2021/09/krebsonsecurity-hit-by-huge-new-iot-botnet-meris/) and [spread malware](https://en.wikipedia.org/wiki/Mirai_(malware)). In an attempt to help solve this issue, the Snap developers decided to simply make it impossible to turn off automatic updates. When Snap was initially released in 2014, automatic updates were so new to the Linux ecosystem that the developers feared every list of "10 things to do after installing _\<distro\>_" would include "turn off automatic updates", making the issue of insecure Linux devices even larger.
 
 ## Why now then?
 
