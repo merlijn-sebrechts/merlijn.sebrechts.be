@@ -188,7 +188,7 @@ unsafe= true
 # and socialAppearAtBottom.
 [social]
   # Coding Communities
-  github                = "galgalesh/galgalesh.github.io"
+  github                = "merlijn-sebrechts"
   gitlab                = ""
   stackoverflow         = "" # User Number
   bitbucket             = ""
@@ -203,7 +203,7 @@ unsafe= true
   wordpress             = ""
   medium                = ""
   # Professional/Business Oriented Communities
-  linkedin              = "merlijnsebrechts"
+  linkedin              = "merlijn-sebrechts"
   linkedin_company      = ""
   foursquare            = ""
   xing                  = ""
@@ -221,7 +221,7 @@ unsafe= true
     qq                  = "" # User ID Number
   instagram             = ""
   tumblr                = ""
-  twitter               = ""
+  twitter               = "mesebrec"
   skype                 = ""
   snapchat              = ""
   pinterest             = ""
