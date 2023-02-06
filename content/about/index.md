@@ -1,12 +1,12 @@
 +++
 title = "About Merlijn Sebrechts"
-date = "2022-11-30"
+date = "2023-02-06"
 layout = "about"
 +++
 
-I'm a certified cyborg. I enjoy weird food, hiking, and games with a good story. I want to make the world a better place.
+PhD holder and certified cyborg. I enjoy weird food, hiking, and games with a good story. I want to make the world a better place.
 
-I'm a post-doctoral researcher at imec and teaching fellow at Ghent University in the IDLab research group in Belgium.
+I'm a senior researcher at imec and teaching fellow at Ghent University in the IDLab research group in Belgium.
 
 ## Research
 
