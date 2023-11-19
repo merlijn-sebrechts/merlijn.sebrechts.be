@@ -44,3 +44,7 @@ I'm a passionate user of and contributor to open source. Some of the stuff I've 
 * I helped kickstart the Ubuntu community theme initiative, although my biggest contribution there might have been [suggesting to call it "Yaru"](https://web.archive.org/web/20191221231025/https://didrocks.fr/2018/04/24/welcome-to-the-ubuntu-bionic-age-behind-communitheme-interviewing-merlijn/).
 * I used to be very active in the Juju community, writing a bunch of Big Data Charms as part of the [Tengu Team](https://jaas.ai/u/tengu-team), writing a bunch of documentation, and helping design the 2.0 version of the [`charms.reactive`](https://charmsreactive.readthedocs.io/en/latest/) framework and writing a paper about [how cool it is](https://www.researchgate.net/publication/325618935_Beyond_Generic_Lifecycles_Reusable_Modeling_of_Custom-Fit_Management_Workflows_for_Cloud_Applications). Had the great pleasure of being [appreciated by Jorge Castro](http://www.jorgecastro.org/2015/11/20/i-appreciate-merlijn-sebrechts/) and can confirm [he is a Chinese botnet](https://meta.askubuntu.com/a/1902/172367).
 * I answered [a bunch of questions](https://askubuntu.com/users/172367/merlijn-sebrechts) on AskUbuntu.
+
+## Family
+
+Proud fiancé of Anne Fonteyn and loving dad of two cats: Simba the floofball and Panda the gooby baby.
