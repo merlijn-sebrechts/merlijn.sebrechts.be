@@ -110,7 +110,7 @@ unsafe= true
   [[menu.main]]
     name              = "Talks"
     url               = "/talks/"
-    identifier        = "far fa-id-card"
+    identifier        = "far fa-window-maximize"
     weight            = 3
 
   [[menu.main]]
