@@ -63,7 +63,7 @@ unsafe= true
   # required for proper functionality. HTML is supported within the params.
   [params.intro]
     header                = "Merlijn Sebrechts"
-    paragraph             = """Teaching and researching </br> computer science"""
+    paragraph             = """Teaching and researching </br> software engineering"""
     rssIntro              = true
     socialIntro           = true
 
@@ -108,22 +108,28 @@ unsafe= true
     weight            = 2
 
   [[menu.main]]
+    name              = "Talks"
+    url               = "/talks/"
+    identifier        = "far fa-id-card"
+    weight            = 3
+
+  [[menu.main]]
     name              = "Blog"
     url               = "/blog/"
     identifier        = "far fa-newspaper"
-    weight            = 3
+    weight            = 4
 
   [[menu.main]]
     name              = "Tanzania (Dutch)"
     url               = "/nl/tanzania/"
     identifier        = "far fa-newspaper"
-    weight            = 4
+    weight            = 5
 
   [[menu.main]]
     name              = "Categories"
     url               = "/categories/"
     identifier        = "fas fa-sitemap"
-    weight            = 5
+    weight            = 6
 
 [Languages]
   # Each language has its own menu.
