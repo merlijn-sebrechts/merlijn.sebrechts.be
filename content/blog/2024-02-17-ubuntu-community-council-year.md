@@ -10,11 +10,9 @@ featured: "/2024/ubuntu-summit-2023.png"
 
 Let me tell you a secret. When I was elected to the Ubuntu Community Council in the fall of 2022, I had no idea what to expect. I was excited to start working, but I had no idea what I would be working on.
 
-I'm clearly not the only person with this issue, given the first question of the Ubuntu Community Council Q&A session at the summit was "What does the council actually do?"
+I'm clearly not the only person with this issue, given the first question of the Ubuntu Community Council Q&A session at the summit was "What does the council actually do?" The truth is that it's complicated. I'm writing this blog to explain some of the things we've been doing over the past year, as a way to answer this question by giving examples.
 
-The truth is that it's complicated. I'm writing this blog to explain some of the things we've been doing over the past year, as a way to answer this question by giving examples.
-
-The first part of the answer to this question is easy: the community council is responsible for **enforcing the Ubuntu Code of Conduct** and are the final arbiters of any dispute. We're also the highest governance body in the Ubuntu Community and **run elections** to delegate that power to others. If you're an Ubuntu Member, you've probably received a few emails from me, asking you to once again vote on various leadership bodies.
+The first part of the answer to this question is easy: the community council is responsible for **enforcing the Ubuntu Code of Conduct** and are the final arbiters of disputes. We're also the highest governance body in the Ubuntu Community and **run elections** to delegate that power to others. If you're an Ubuntu Member, you've probably received a few emails from me, asking you to once again vote on various leadership bodies.
 
 But this isn't the entire answer, in my opinion. The Ubuntu community is large and distributed across hundreds of projects under our umbrella. Over the past year, I've met so many amazing people in our community with great ideas and a lot of excitement to work on them. Many talk about success stories: how they built a new flavor out of nothing, or how they created an amazing community on Discord. But many also talk about failures: how they're trying to build a community around their software but don't know where to start, or how they're trying to get their community officially recognized and supported, but don't know where to ask. The Ubuntu project is an incredibly complex system and it's easy to get lost.
 
@@ -31,9 +29,9 @@ So what have we been doing exactly?
 
 ## Kickstarting Ubuntu Matrix Governance
 
-Ubuntu has been slowly testing out Matrix as a modern chat platform. It started as an informal Ubuntu space on a personal homeserver, and slowly grew in size as more people started getting excited. However, in November 2023, the team working in this bumped up against an issue. Canonical had just setup a public testing homeserver for the Ubuntu community, but it received _a lot_ of traction very quickly. Although the initial plan was to wipe the homeserver after a few months of use, suddenly entire communities started switching and using it full-time.
+Ubuntu has been slowly testing out Matrix as a modern chat platform. It started as an informal Ubuntu space on a personal homeserver, and slowly grew in size as more people started getting excited. However, in November 2023, they hit an issue. Canonical had just setup a public testing homeserver for the Ubuntu community, but it received _a lot_ of traction very quickly. Although the initial plan was to wipe the homeserver after a few months of use, suddenly entire communities started switching and using it full-time.
 
-While this was a good issue to have, it was an issue nonetheless, because the project wasn't actually ready for this influx of users. A lot of things needed to be decided, like how to do moderation, what to bridge, who gets what permissions. However, it wasn't actually clear who could make these decisions, because of how informal it started.
+While this was a good issue to have, it was an issue nonetheless, because the project wasn't actually ready for this influx of users. A lot of things needed to be decided, like how to do moderation, what to bridge, and who gets what permissions. However, it wasn't actually clear who could make these decisions, because of how informal it started.
 
 So to make sure this project could move forward at the speed that the community was adopting it, we decided to form the ["temporary Matrix Council"](https://discourse.ubuntu.com/t/introducing-the-temporary-matrix-council/41348), comprised of representatives from the Matrix operators, the Community Council, the IRC Council and Canonical's community team. With a fixed term, their goal is to lead the Ubuntu Matrix project until formal elections in March. They've done a great job so far, you can read all about the accomplishments in the announcement of [our homeserver going live](https://discourse.ubuntu.com/t/ubuntu-matrix-homeserver-go-live/42401).
 
@@ -71,4 +69,4 @@ There are many more things to do for us in 2024 and beyond. These are some of th
 * A number of projects are figuring out how to grow their communities and transition to community-based governance.
 * Some old and some new flavors are figuring out how to become sustainable and grow their contributor-base.
 
-I'm very excited for what's to come and I have a lot of trust in the power of the Ubuntu Community to keep growing and improving. If you yourself are lost or stuck, and want to discuss any community-related topics you want to discuss with me, feel free to send be an email or contact me on Matrix!
+I'm very excited for what's to come and I have a lot of trust in the power of the Ubuntu Community to keep growing and improving. If you yourself are lost or stuck, and want to discuss any community-related topics, feel free to send be an email or contact me on Matrix!
