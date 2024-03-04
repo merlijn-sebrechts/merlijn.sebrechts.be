@@ -4,7 +4,7 @@ layout: post
 type: "post"
 date: 2022-09-10
 categories:
-  - 'PhD'
+  - 'University'
 tags:
   - 'Google Drive'
   - 'Google Calendar'

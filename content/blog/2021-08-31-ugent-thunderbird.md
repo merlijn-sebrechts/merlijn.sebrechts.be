@@ -4,7 +4,7 @@ layout: post
 type: "post"
 date: 2022-08-31
 categories:
-  - 'PhD'
+  - 'University'
 tags:
   - 'Thunderbird'
   - 'Exchange ActiveSync'

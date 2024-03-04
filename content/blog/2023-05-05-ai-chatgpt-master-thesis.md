@@ -4,7 +4,7 @@ layout: post
 type: "post"
 date: 2023-05-05
 categories:
-  - 'Education'
+  - 'University'
 featured: "/2023/ai-masters-thesis-feature.jpg"
 ---
 

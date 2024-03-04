@@ -4,7 +4,7 @@ layout: post
 type: "post"
 date: 2019-05-22
 categories:
-  - 'PhD'
+  - 'University'
 tags:
   - 'Copyright'
 ---

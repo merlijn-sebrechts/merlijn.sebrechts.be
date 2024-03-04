@@ -4,7 +4,7 @@ layout: post
 type: "post"
 date: 2019-10-10
 categories:
-  - 'Health'
+  - 'Personal'
 tags:
   - 'Heart'
 featured: "/2019/echo-aorta-valve-regurgitation.jpg"

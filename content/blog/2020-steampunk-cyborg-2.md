@@ -4,7 +4,7 @@ layout: post
 type: "post"
 date: 2020-08-15
 categories:
-  - 'Health'
+  - 'Personal'
 tags:
   - 'Heart'
 featured: "/2019/mechanical-valve.png"

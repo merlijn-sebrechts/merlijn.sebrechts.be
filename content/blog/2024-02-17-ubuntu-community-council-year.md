@@ -37,7 +37,7 @@ So to make sure this project could move forward at the speed that the community 
 
 ## Supporting Local Communities
 
-While Ubuntu is an international and often digital community, we also have the concept of "Local Communities (LoCos)" that bring together community members based on geography and language. This makes it much easier to get in-person connections to our project without having to travel to the other side of the world. It also helps the diversity of our project by providing a shared voice for people with similar backgrounds. Moreover, while English is the default language of our project, Local Communities allow people to connect using other languages. As a result, they're often a driving force of the translation efforts that make Ubuntu available to a much wider audience.
+While Ubuntu is an international and often digital community, we also have the concept of "Local Communities (LoCos)" that bring together community members based on geography and language. This makes it much easier to get in-person connections to our project without having to travel to the other side of the world. It also helps the diversity of our project by providing a shared voice for people with similar backgrounds. Moreover, while English is the default language of our project, Local Communities allow people to connect using other languages. As a result, they're often a driving force behind the translation efforts that make Ubuntu available to a much wider audience.
 
 As Bhavanishankar Ravindra pointed out last year, one of the issues holding these communities back is the lack of guidance and cross-LoCo collaboration. To solve this, he [suggested to resurrect the LoCo Council](https://discourse.ubuntu.com/t/loco-council-and-loco-teams-resurrection/33545). Previous attempts have failed to gather steam, but given the incredible interest, this seemed like the right time to try again. Monica Ayhens-Madon was able to setup a community council meeting where we decided to reboot the LoCo Council with new elections. After a lot of advertising at the Ubuntu Summit, we were able to get a team of nominees together and setup elections, resulting in [the new LoCo Council](https://discourse.ubuntu.com/t/new-ubuntu-loco-council/41515), serving a term of 2 years.
 
@@ -58,7 +58,7 @@ While Code of Conduct enforcement is an important part of our job, it's not some
 
 ## Saying thanks
 
-The community council often plays only a limited role in these efforts. While we can guide and connect people, and give authority to iniatives, the real work is being done by the incredibly community that is driving this project. The LoCo council wouldn't be here without the work of dozens of LoCo leaders to revive the initiative. The Ubuntu Matrix project started long before we got involved, and is being carried by an amazing group of volunteers. Finally, the Canonical Community Team is always there to support us when we need it.
+The community council often plays only a limited role in these efforts. While we can guide and connect people, and give authority to initiatives, the real work is being done by the incredibly community that is driving this project. The LoCo council wouldn't be here without the work of dozens of LoCo leaders to revive the initiative. The Ubuntu Matrix project started long before we got involved, and is being carried by an amazing group of volunteers. Finally, the Canonical Community Team is always there to support us when we need it.
 
 ## Looking forward
 

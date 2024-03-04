@@ -4,7 +4,7 @@ layout: post
 type: "post"
 date: 2023-12-28
 categories:
-  - 'Linux'
+  - 'Other'
 featured: "/2023/dell-ecoloop-pro-vs-premier.jpg"
 ---
 
