@@ -40,7 +40,7 @@ I love sharing my knowledge, both with peers and with the wider public! [Contact
 
 ## DevOps & Linux
 
-* Panel: **Platform Engineering: Unveiling the Next Evolution in DevOps** ([recording](https://www.accelevents.com/e/dasa-connect-2024/portal/schedule/328496))
+* Panel: **Platform Engineering: Unveiling the Next Evolution in DevOps** ([recording](https://www.youtube.com/watch?v=oX7MdWIYlSk))
   </br>DASA Connect, *May 2024*
 
 * **Bringing Windows Applications to Linux App Stores** ([recording](https://www.youtube.com/watch?v=Huehkbs8W9U))
