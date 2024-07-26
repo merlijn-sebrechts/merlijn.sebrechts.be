@@ -8,7 +8,7 @@ categories:
 featured: "/2024/Llamas-legal-labyrinth.png"
 ---
 
-Meta just introduced the Llama 3.1 AI model and accompanied the launch with a blog post explaining "Open Source AI is the path forward" [a]. But buyer beware: Llama 3.1 itself is a legal labyrinth.
+Meta just introduced the Llama 3.1 AI model and accompanied the launch with a blog post explaining "Open Source AI is the path forward" [[a]](./#[a]). But buyer beware: Llama 3.1 itself is a legal labyrinth.
 
 Despite what Meta is implying, Llama 3.1 is not open source. The model is licensed under [the Llama 3.1 license](https://llama.meta.com/llama3_1/license/) and the [Llama 3.1 acceptable use policy](https://llama.meta.com/llama3_1/use-policy/). **These heavily restrict who can use the model and for what purpose.** Make sure you understand the license before you integrate Llama 3.1 into your product!
 
@@ -20,10 +20,10 @@ There are four main problems with this license.
 
 Llama's "acceptable use policy" is a long description of who isn't allowed to use Llama and what usage is prohibited. It prohibits a lot of legitimate behavior such as using Llama to assist in the development and planning of
 
-* 2.c. Controlled substances
-* 2.d. Critical infrastructures, transportation technologies and heavy machinery
+* Controlled substances (Art. 2.c.)
+* Critical infrastructures, transportation technologies and heavy machinery (Art. 2.d.)
 
-AI has massive potential to help us develop new drugs [i], design safer roads [j] and create better safety equipment [g]. We need to be careful about how we use AI in these fields, but do we really want to completely ban the use of AI in these fields, even during planning and design phases? Moreover, if you're planning to add Llama to your product, are you certain none of your customers are working in any of these sectors?
+AI has massive potential to help us develop new drugs [[i]](./#[i]), design safer roads [[j]](./#[j]) and create better safety equipment [[g]](./#[g]). We need to be careful about how we use AI in these fields, but do we really want to completely ban the use of AI in these fields, even during planning and design phases? Moreover, if you're planning to add Llama to your product, are you certain none of your customers are working in any of these sectors?
 
 But that's just the tip of the iceberg. The policy also contains a number of overly-broad clauses such as the following:
 
@@ -75,13 +75,13 @@ Let's take a look at the last item specifically.
 >
 > [1.a.]v. **Sexual solicitation**
 
-People's views on sex work varies wildly between cultures, countries, and individuals. So does the legality of sexual solicitation. For example, sex work is completely legal in Belgium, and we even have a national sex workers union [d]. Nevertheless, sex workers are arbitrarily barred from using Llama.
+People's views on sex work varies wildly between cultures, countries, and individuals. So does the legality of sexual solicitation. For example, sex work is completely legal in Belgium, and we even have a national sex workers union [[d]](./#[d]). Nevertheless, sex workers are arbitrarily barred from using Llama.
 
 Regardless of what your views are on these topics, do you really think a single company in the US should be responsible for setting the standards of what moral and ethical use of AI is? With the threat of cutting your access to Llama, Meta is dictating what is allowed and what isn't, regardless of local culture, laws, and customs.
 
 But this isn't only an issue for the people targeted by this "acceptable use policy". Keep in mind that application developers are responsible for ensuring their users cannot do these activities with Llama. How can you ensure your users are not doing any of these things?
 
-Note that "contributing to" and "planning" sexual solicitation is so incredibly broad that it can include almost anything a sex worker does [e]. For example, if a sex worker uses accounting software to track their business, this can be seen as contributing to sexual solicitation. **Are you certain that none of your customers are sex workers?**
+Note that "contributing to" and "planning" sexual solicitation is so incredibly broad that it can include almost anything a sex worker does [[e]](./#[e]). For example, if a sex worker uses accounting software to track their business, this can be seen as contributing to sexual solicitation. **Are you certain that none of your customers are sex workers?**
 
 ## My thoughts
 
@@ -91,19 +91,19 @@ In the "Open Source AI Is the Path Forward" blogpost, Mark Zuckerberg explains h
 
 I am very hopeful about AI, and especially the power of Open Source AI, but I sincerely worry about a future where Mark's vision becomes true and Llama is the "default AI" that everything else is building on top of. Because if this happens, the entire digital world is at the whim of a vague, moralizing license created by one of the largest mega-corporations in the world. Not only will vast categories of people be excluded from using AI, those who are allowed to use AI will have to decide between using AI or enforcing their intellectual property rights.
 
-It's also saddening to see Meta insists on falsely advertising [g] Llama as Open Source. This is not just a buzzword people can apply when they see fit. Instead, it's a term with a very specific legal meaning defined by the Open Source Initiative (OSI). The OSI is internationally recognized as the authority deciding what "Open Source" actually means [f]. They have been very clear that Llama is not open source [b], yet Meta has since only increased their openwashing practice. It seems as if Meta's banking on the fact that nobody will dare to sue one of the largest multinationals in the world.
+It's also saddening to see Meta insists on falsely advertising [[g]](./#[g]) Llama as Open Source. This is not just a buzzword people can apply when they see fit. Instead, it's a term with a very specific legal meaning defined by the Open Source Initiative (OSI). The OSI is internationally recognized as the authority deciding what "Open Source" actually means [f]. They have been very clear that Llama is not open source [[b]](./#[b]), yet Meta has since only increased their openwashing practice. It seems as if Meta's banking on the fact that nobody will dare to sue one of the largest multinationals in the world.
 
 If Meta truly wants to be a force for good, then it should either stop calling Llama "Open Source", or bring the Llama license in line with the Open Source Definition.
 
 ## References
 
-* [a] [Open Source AI Is the Path Forward - Meta](https://about.fb.com/news/2024/07/open-source-ai-is-the-path-forward/)
-* [b] [Meta’s LLaMa 2 license is not Open Source - Open Source Initiative](https://opensource.org/blog/metas-llama-2-license-is-not-open-source)
-* [c] [The Open Source AI Definition - Open Source Initiative](https://go.opensource.org/osaid-latest)
-* [d] [The Belgian union of sex workers - UTSOPI](https://www.utsopi.be/)
-* [e] [Not Up to the Challenge of Change: An Analysis of the Report of the Subcommittee of Solicitation Laws](https://www.nswp.org/resource/member-publications/not-the-challenge-change-analysis-the-report-the-subcomittee)
-* [f] [International Authority & Recognition - Open Source Initiative](https://opensource.org/authority)
-* [g] [Court affirms it’s false advertising to claim software is Open Source when it’s not](https://opensource.org/blog/court-affirms-its-false-advertising-to-claim-software-is-open-source-when-its-not)
-* [h] [Researchers develop new AI-based design method for metamaterials](https://engineering.berkeley.edu/news/2023/10/researchers-develop-new-ai-based-design-method-for-metamaterials/)
-* [i] [AI designs new drugs based on protein structures](https://www.sciencedaily.com/releases/2024/04/240424111653.htm)
-* [j] [LLM Multimodal Traffic Accident Forecasting](https://www.mdpi.com/1424-8220/23/22/9225)
+* [a]<a name="[a]"></a> [Open Source AI Is the Path Forward - Meta](https://about.fb.com/news/2024/07/open-source-ai-is-the-path-forward/)
+* [b]<a name="[b]"></a> [Meta’s LLaMa 2 license is not Open Source - Open Source Initiative](https://opensource.org/blog/metas-llama-2-license-is-not-open-source)
+* [c]<a name="[c]"></a> [The Open Source AI Definition - Open Source Initiative](https://go.opensource.org/osaid-latest)
+* [d]<a name="[d]"></a> [The Belgian union of sex workers - UTSOPI](https://www.utsopi.be/)
+* [e]<a name="[e]"></a> [Not Up to the Challenge of Change: An Analysis of the Report of the Subcommittee of Solicitation Laws - nswp](https://www.nswp.org/resource/member-publications/not-the-challenge-change-analysis-the-report-the-subcomittee)
+* [f]<a name="[f]"></a> [International Authority & Recognition - Open Source Initiative (OSI)](https://opensource.org/authority)
+* [g]<a name="[g]"></a> [Court affirms it’s false advertising to claim software is Open Source when it’s not - Open Source Initiative (OSI)](https://opensource.org/blog/court-affirms-its-false-advertising-to-claim-software-is-open-source-when-its-not)
+* [h]<a name="[h]"></a> [Rapid inverse design of metamaterials based on prescribed mechanical behavior through machine learning - Chan Soo Ha et al.](https://doi.org/10.1038/s41467-023-40854-1)
+* [i]<a name="[i]"></a> [Prospective de novo drug design with deep interactome learning. - K. Atz et al.](https://doi.org/10.1038/s41467-024-47613-w)
+* [j]<a name="[j]"></a> [LLM Multimodal Traffic Accident Forecasting - I. de Zarzà et al.](https://doi.org/10.3390/s23229225)
