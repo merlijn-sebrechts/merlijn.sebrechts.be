@@ -47,4 +47,4 @@ I'm a passionate user of and contributor to open source. Some of the stuff I've 
 
 ## Family
 
-Proud fiancé of Anne Fonteyn and loving dad of two cats: Simba the floofball and Panda the gooby baby.
+Proud husband of Anne Fonteyn and loving dad of two cats: Simba the floofball and Panda the gooby baby.
