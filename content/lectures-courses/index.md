@@ -6,8 +6,17 @@ layout = "about"
 
 ## Conferences
 
+- **Wat is "open" AI nu eigenlijk echt?**
+  </br>Science Festival Ghent, _November 2024_
+
+- **Wetenschapsfestival - Slimme auto's, zijn die wel veilig?**
+  </br>Science Festival Ghent, _November 2024_
+
 - **WebAssembly for IoT Devices: Interfacing with USB and I2C Hardware**
   </br>WasmCon 2024, _November 2024_
+
+- **The Service Mesh Architecture** ([event](https://www.cionet.com/tribes/sessions/the-service-mesh-architecture?hsLang=en))
+  </br>CIONET squad sessions 2024, _October 2024_ [invited talk]
 
 - **Panel: Platform Engineering: Unveiling the Next Evolution in DevOps** ([event](https://www.accelevents.com/e/dasa-connect-2024/portal/schedule/328496), [recording](https://www.youtube.com/watch?v=oX7MdWIYlSk))
   </br>DASA Connect 2024, _May 2024_ [invited panelist]
