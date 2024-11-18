@@ -6,14 +6,23 @@ layout = "about"
 
 ## Conferences
 
-- **Wat is "open" AI nu eigenlijk echt?**
+- **Wat is "open" AI nu eigenlijk echt?** ([event](https://www.dagvandewetenschap.be/activiteiten/universiteit-gent-wat-is-open-ai-nu-eigenlijk-echt-op-locatie))
   </br>Science Festival Ghent, _November 2024_
 
-- **Wetenschapsfestival - Slimme auto's, zijn die wel veilig?**
+- **Wetenschapsfestival - Slimme auto's, zijn die wel veilig?** ([event](https://www.dagvandewetenschap.be/activiteiten/universiteit-gent-slimme-autos-zijn-die-wel-veilig-op-locatie))
   </br>Science Festival Ghent, _November 2024_
+
+- **State of the cloud 2024**
+  </br>LSEC Annual General Meeting 2024, _November 2024_
 
 - **WebAssembly for IoT Devices: Interfacing with USB and I2C Hardware**
   </br>WasmCon 2024, _November 2024_
+
+- **Cyber-physical WebAssembly**
+  </br>WebAssembly Research Center Discussion Series, _November 2024_ [invited talk]
+
+- **Bringing Containerization to the Cyber-physical Edge with WebAssembly and WASI**
+  </br>Telefónica Research Tech Talk, _October 2024_ [invited talk]
 
 - **The Service Mesh Architecture** ([event](https://www.cionet.com/tribes/sessions/the-service-mesh-architecture?hsLang=en))
   </br>CIONET squad sessions 2024, _October 2024_ [invited talk]
@@ -43,10 +52,10 @@ layout = "about"
   </br>Wasm Research Day 2023, _November 2023_ [invited talk]
 
 - **Zero-trust Encryption at Rest With Ceph, Vault and Rook**
-  </br>Cloud Security focus group - Belgian Cybersecurity Coalition, _March 2023_  [invited talk]
+  </br>Crypto focus group - Belgian Cybersecurity Coalition, _March 2023_  [invited talk]
 
-- **Open Source Cloud**
-  </br>Crypto focus group - Belgian Cybersecurity Coalition, _March 2023_ [invited talk]
+- **Open Source Cloud Technologies & Solutions**
+  </br>Cloud Security focus group - Belgian Cybersecurity Coalition, _Februari 2023_ [invited talk]
 
 - **Vraag het aan een expert - Linux en Open Source**
   </br>FEA Alumnidag 2023, _March 2023_
@@ -54,14 +63,11 @@ layout = "about"
 - **Lightweight Kubernetes Operators with WebAssembly** ([recording](https://www.youtube.com/watch?v=E5o81Wldshk))
   </br>FOSDEM 2023, _Februari 2023_
 
-- **Invited Guest at Ubuntu Summit 2022**
-  </br>Ubuntu Summit 2022, _November 2022_
-
 - **Teaching programming using GitHub, Jupyter notebooks & devContainers**
   </br>Science Labs Visiedag, _June 2022_
 
 - **Cloud: From Lift/Shift to the Complexity of Cloud-Native**
-  </br>V-ICT-OR, _September 2022_
+  </br>V-ICT-OR, _September 2022_ [invited talk]
 
 - **Solving conflict in a community of equals** ([recording](https://www.youtube.com/watch?v=Gng6-nfITkY))
   </br>Remote Chaos Communications Congress, _December 2020_
@@ -73,10 +79,7 @@ layout = "about"
   </br>36c3, _December 2019_
 
 - **Tengu: A Big Data Experimentation Sandbox** ([recording](https://www.youtube.com/watch?v=k5ynlbP1jfE))
-  </br>Juju Charmers Summit Passadena, _September 2016_ [invited talk]
-
-- **Invited Guest at 1st Juju Charmers Summit**
-  </br>Juju Charmers Summit, _September 2015_
+  </br>Juju Charmers Summit Pasadena, _September 2016_ [invited talk]
 
 ## Teaching
 
