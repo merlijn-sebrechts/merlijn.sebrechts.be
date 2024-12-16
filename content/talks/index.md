@@ -2,6 +2,7 @@
 title = "Talks & Teaching"
 date = "2024-06-07"
 layout = "about"
+no_rss = true
 +++
 
 This is a small selection of recorded talks and guest lectures I gave in the past.
