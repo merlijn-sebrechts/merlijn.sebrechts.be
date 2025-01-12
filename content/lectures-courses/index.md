@@ -2,6 +2,7 @@
 title = "Lectures and courses"
 date = "2024-08-09"
 layout = "about"
+no_rss = true
 +++
 
 ## Conferences

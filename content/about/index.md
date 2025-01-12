@@ -2,6 +2,7 @@
 title = "About Merlijn Sebrechts"
 date = "2023-02-06"
 layout = "about"
+no_rss = true
 +++
 
 PhD holder and certified cyborg. I enjoy weird food, hiking, and games with a good story. I want to make the world a better place.

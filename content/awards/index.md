@@ -2,6 +2,7 @@
 title = "Awards"
 date = "2024-08-09"
 layout = "about"
+no_rss = true
 +++
 
 - 2024 - Best Paper Award at CLOSER 2024: "Feather: Lightweight Container Alternatives for Deploying Workloads in the Edge"
