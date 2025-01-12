@@ -7,8 +7,11 @@ no_rss = true
 
 ## 2023-2024
 
+- **Agile leadership for post-doctoral researchers**
+  </br>Impetus Academy, Fall 2024
+
 - **Building Collaborative Consortia Masterclass**
-  </br>Organius, Summer 2024
+  </br>Origanius, Summer 2024
 
 - Basisdocententraining (voorjaar 2024)
 - HORIZON Europe coordinator training (najaar 2023)

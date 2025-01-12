@@ -6,6 +6,7 @@ no_rss = true
 +++
 
 - 2024 - Best Paper Award at CLOSER 2024: "Feather: Lightweight Container Alternatives for Deploying Workloads in the Edge"
+- 2022 - Top Downloaded Article Software: Practice and Experience: "Design and evaluation of a scalable Internet of Things backend for smart ports"
 - 2022 - Best Demo Paper Award ICWE 2022: "Solid Web Monetization" at the 22nd International Conference on Web Engineering
 - 2021 - Ubuntu Member (2021): recognition of "significant and sustained contribution to the Ubuntu ecosystem"
 - 2019 - Best Student Paper Award CLOSER 2019: The paper "FUSE: a Microservice approach to Cross-domain Federation using Docker Containers" at the 9th International Conference on Cloud Computing and Services Science
