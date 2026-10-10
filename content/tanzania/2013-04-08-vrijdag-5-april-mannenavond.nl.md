@@ -1,10 +1,8 @@
 ---
 title: 'Vrijdag 5 april: mannenavond'
-layout: post
 date: 2013-04-08
 categories:
   - Tanzania
-type: "post"
 
 
 ---

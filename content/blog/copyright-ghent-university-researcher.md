@@ -1,7 +1,5 @@
 ---
 title: Who owns my research?
-layout: post
-type: "post"
 date: 2019-05-22
 categories:
   - 'University'

@@ -1,10 +1,8 @@
 ---
 title: 'Q&A: busrit in Tanzania'
-layout: post
 date: 2013-03-03
 categories:
   - Tanzania
-type: "post"
 
 
 ---

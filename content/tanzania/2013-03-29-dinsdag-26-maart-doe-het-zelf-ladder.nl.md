@@ -1,10 +1,8 @@
 ---
 title: 'Dinsdag 26 maart: doe het zelf-ladder'
-layout: post
 date: 2013-03-29
 categories:
   - Tanzania
-type: "post"
 
 
 ---

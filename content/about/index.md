@@ -2,6 +2,8 @@
 title = "About Merlijn Sebrechts"
 date = "2023-02-06"
 layout = "about"
+image = "images/merlijn-sebrechts.jpg"
+description = "Merlijn Sebrechts is a senior researcher at imec and teaching fellow at Ghent University (IDLab), working on software deployment and trust in the cloud and on devices."
 no_rss = true
 +++
 

@@ -1,10 +1,8 @@
 ---
 title: Zondag brunchdag
-layout: post
 date: 2013-04-03
 categories:
   - Tanzania
-type: "post"
 
 
 ---

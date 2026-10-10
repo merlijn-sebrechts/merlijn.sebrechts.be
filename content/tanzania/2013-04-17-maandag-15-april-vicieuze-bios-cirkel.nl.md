@@ -1,10 +1,8 @@
 ---
 title: 'Maandag 15 april: vicieuze-BIOS-cirkel'
-layout: post
 date: 2013-04-17
 categories:
   - Tanzania
-type: "post"
 
 
 ---

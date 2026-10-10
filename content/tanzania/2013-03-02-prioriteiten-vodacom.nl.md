@@ -1,10 +1,8 @@
 ---
 title: 'Prioriteiten: vodacom'
-layout: post
 date: 2013-03-02
 categories:
   - Tanzania
-type: "post"
 
 
 ---

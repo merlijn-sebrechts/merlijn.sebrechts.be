@@ -1,10 +1,8 @@
 ---
 title: 'Woensdag 13 maart: barmhartigheid'
-layout: post
 date: 2013-03-13
 categories:
   - Tanzania
-type: "post"
 
 
 ---

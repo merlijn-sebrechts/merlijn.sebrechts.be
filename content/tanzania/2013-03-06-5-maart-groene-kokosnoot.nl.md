@@ -1,10 +1,8 @@
 ---
 title: '5 maart: groene kokosnoot'
-layout: post
 date: 2013-03-06
 categories:
   - Tanzania
-type: "post"
 
 
 ---

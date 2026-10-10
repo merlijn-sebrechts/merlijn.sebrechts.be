@@ -1,10 +1,8 @@
 ---
 title: 'Dinsdag 9 april: op schema'
-layout: post
 date: 2013-04-10
 categories:
   - Tanzania
-type: "post"
 
 
 ---

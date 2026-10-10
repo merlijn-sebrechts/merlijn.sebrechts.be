@@ -1,10 +1,8 @@
 ---
 title: man -f stage
-layout: post
 date: 2013-02-24
 categories:
   - Tanzania
-type: "post"
 
 
 ---

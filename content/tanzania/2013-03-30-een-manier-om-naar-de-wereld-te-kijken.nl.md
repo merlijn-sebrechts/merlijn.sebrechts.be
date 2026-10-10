@@ -1,10 +1,8 @@
 ---
 title: Een manier om naar de wereld te kijken
-layout: post
 date: 2013-03-30
 categories:
   - Tanzania
-type: "post"
 
 
 ---

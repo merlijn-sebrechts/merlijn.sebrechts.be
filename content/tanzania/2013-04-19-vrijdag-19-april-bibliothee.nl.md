@@ -1,10 +1,8 @@
 ---
 title: 'Vrijdag 19 april: Bibliotheek in access'
-layout: post
 date: 2013-04-19
 categories:
   - Tanzania
-type: "post"
 
 
 ---

@@ -1,10 +1,8 @@
 ---
 title: 'Maandag 25 maart: kabel kapot'
-layout: post
 date: 2013-03-28
 categories:
   - Tanzania
-type: "post"
 
 
 ---

@@ -1,4 +1,7 @@
 # Temporary lock file while building
-/.hugo_build.lock
-
-resources/_gen/
+.hugo_build.lock
+node_modules/
+resources/
+hugo_stats.json
+assets/css/generated-theme.css
+preview/

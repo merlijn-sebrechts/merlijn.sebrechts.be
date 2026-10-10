@@ -1,10 +1,8 @@
 ---
 title: 'Zondag 17 Maart: Jacobsen Beach'
-layout: post
 date: 2013-03-20
 categories:
   - Tanzania
-type: "post"
 
 
 ---

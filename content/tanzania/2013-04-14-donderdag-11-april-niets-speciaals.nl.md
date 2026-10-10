@@ -1,10 +1,8 @@
 ---
 title: 'Donderdag 11 april: niets speciaals'
-layout: post
 date: 2013-04-14
 categories:
   - Tanzania
-type: "post"
 
 
 ---

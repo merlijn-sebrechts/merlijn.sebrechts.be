@@ -1,10 +1,8 @@
 ---
 title: 'Vrijdag 15 maart: Proper muggennet'
-layout: post
 date: 2013-03-19
 categories:
   - Tanzania
-type: "post"
 
 
 ---

@@ -1,11 +1,9 @@
 ---
 title: "Our students can use AI for their master's thesis - the policy"
-layout: post
-type: "post"
 date: 2023-05-05
 categories:
   - 'University'
-featured: "/2023/ai-masters-thesis-feature.jpg"
+image: "img/2023/ai-masters-thesis-feature.jpg"
 ---
 
 During my day job, I teach a number of computer science courses in the [Information Engineering Technology programme at Ghent University](https://studiekiezer.ugent.be/master-of-science-in-information-engineering-technology/). The release of ChatGPT and GPT-4 has a large impact on our education because it can get grades of above 80% on most exams and can effortlessly write essays on complex subjects. Students are aware of this, and are thus increasingly using Large Language Models (LLMs) in their education for a number of tasks.

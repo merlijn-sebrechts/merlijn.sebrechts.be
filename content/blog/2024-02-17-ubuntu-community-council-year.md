@@ -1,11 +1,9 @@
 ---
 title: "A year in the Ubuntu Community Council"
-layout: post
-type: "post"
 date: 2024-02-17
 categories:
   - 'Linux'
-featured: "/2024/ubuntu-summit-2023.png"
+image: "img/2024/ubuntu-summit-2023.png"
 ---
 
 Let me tell you a secret. When I was elected to the Ubuntu Community Council in the fall of 2022, I had no idea what to expect. I was excited to start working, but I had no idea what I would be working on.

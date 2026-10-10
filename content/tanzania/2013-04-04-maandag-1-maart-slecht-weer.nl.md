@@ -1,10 +1,8 @@
 ---
 title: 'Maandag 1 april: slecht weer'
-layout: post
 date: 2013-04-04
 categories:
   - Tanzania
-type: "post"
 
 
 ---

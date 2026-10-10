@@ -1,7 +1,5 @@
 ---
 title: "How to verify the source of a Snap package"
-layout: post
-type: "post"
 date: 2020-08-16
 categories:
   - 'Linux'

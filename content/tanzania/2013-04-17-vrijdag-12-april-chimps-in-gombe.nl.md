@@ -1,10 +1,8 @@
 ---
 title: 'Vrijdag 12 april: chimps in gombe'
-layout: post
 date: 2013-04-17
 categories:
   - Tanzania
-type: "post"
 
 
 ---

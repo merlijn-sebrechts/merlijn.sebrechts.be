@@ -1,10 +1,8 @@
 ---
 title: 'Vrijdag 8 maart: de brolcontainer'
-layout: post
 date: 2013-03-10
 categories:
   - Tanzania
-type: "post"
 
 
 ---

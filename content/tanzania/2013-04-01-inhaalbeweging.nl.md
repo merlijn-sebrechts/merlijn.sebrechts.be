@@ -1,10 +1,8 @@
 ---
 title: Inhaalbeweging
-layout: post
 date: 2013-04-01
 categories:
   - Tanzania
-type: "post"
 
 
 ---

@@ -1,7 +1,6 @@
 +++
 title = "Supervision of master's and doctoral theses"
 date = "2025-01-12"
-layout = "about"
 no_rss = true
 +++
 

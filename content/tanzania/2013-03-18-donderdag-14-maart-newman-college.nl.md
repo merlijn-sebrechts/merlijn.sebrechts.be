@@ -1,10 +1,8 @@
 ---
 title: 'Donderdag 14 maart: Newman college'
-layout: post
 date: 2013-03-18
 categories:
   - Tanzania
-type: "post"
 
 
 ---

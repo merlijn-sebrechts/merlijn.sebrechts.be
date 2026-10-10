@@ -1,11 +1,9 @@
 ---
 title: "Llama's Legal Labyrinth"
-layout: post
-type: "post"
 date: 2024-08-06
 categories:
   - 'Linux'
-featured: "/2024/Llamas-legal-labyrinth.png"
+image: "img/2024/Llamas-legal-labyrinth.png"
 ---
 
 Meta just introduced the Llama 3.1 AI model and accompanied the launch with a blog post explaining "Open Source AI is the path forward" [[a]](./#[a]). But buyer beware: Llama 3.1 itself is a legal labyrinth.

@@ -1,0 +1,19 @@
+{
+  "name": "merlijn.sebrechts.be",
+  "description": "Personal website of Merlijn Sebrechts, built with Hugo and the Hugoplate theme",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"node scripts/themeGenerator.js --watch\" \"hugo server\"",
+    "build": "node scripts/themeGenerator.js && hugo --gc --minify",
+    "update-modules": "hugo mod get -u ./... && hugo mod tidy",
+    "postinstall": "node -e \"const fs=require('fs'),p='node_modules/.bin/tailwindcss';try{fs.lstatSync(p).isSymbolicLink()||((fs.unlinkSync(p)),fs.symlinkSync('../@tailwindcss/cli/dist/index.mjs',p))}catch(e){}\""
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.0",
+    "@tailwindcss/forms": "^0.5.11",
+    "@tailwindcss/typography": "^0.5.19",
+    "concurrently": "^9.2.1",
+    "tailwind-bootstrap-grid": "^7.0.0",
+    "tailwindcss": "^4.3.0"
+  }
+}

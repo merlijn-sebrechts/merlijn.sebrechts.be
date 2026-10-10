@@ -1,10 +1,8 @@
 ---
 title: 'Vrijdag: doe-het-zelf weg'
-layout: post
 date: 2013-03-23
 categories:
   - Tanzania
-type: "post"
 
 
 ---

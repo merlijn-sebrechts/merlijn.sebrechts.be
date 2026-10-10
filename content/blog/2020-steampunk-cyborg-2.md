@@ -1,13 +1,11 @@
 ---
 title: "How I became a cyborg pt2"
-layout: post
-type: "post"
 date: 2020-08-15
 categories:
   - 'Personal'
 tags:
   - 'Heart'
-featured: "/2019/mechanical-valve.png"
+image: "img/2019/mechanical-valve.png"
 ---
 
 > This is part 2 of a series on how I became a cyborg. Warning: this article talks in details about heart surgery and shows post-op images.

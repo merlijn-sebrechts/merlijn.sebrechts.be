@@ -1,13 +1,11 @@
 ---
 title: "What is the Apache 2.0 LLVM Exception?"
-layout: post
-type: "post"
 date: 2024-03-04
 categories:
   - 'Linux'
 tags:
   - 'Copyright'  
-featured: "/2024/asf-logo.png"
+image: "img/2024/asf-logo.png"
 ---
 
 Some open source projects use the Apache 2.0 license ["with LLVM Exception"](https://spdx.org/licenses/LLVM-exception.html) `SPDX: "Apache-2.0 WITH LLVM-exception"`). So what is the "LLVM exception" exactly, and why do some projects add it to their license?

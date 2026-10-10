@@ -1,11 +1,9 @@
 ---
 title: "Using Dell MH3021P speakerphone on Ubuntu Linux"
-layout: post
-type: "post"
 date: 2023-01-24
 categories:
   - 'Linux'
-featured: "/2023/dell-mh3021p.jpg"
+image: "img/2023/dell-mh3021p.jpg"
 ---
 
 I recently bought the Dell MH3021P speakerphone. I want to use it for hybrid meetings and for recording audio during lectures. Dell doesn't say the device supports Linux, so I was curious to see how much of the device works. Google didn't have an answer so I bought the device to test it for myself.

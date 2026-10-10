@@ -1,10 +1,8 @@
 ---
 title: 'Dinsdag woensdag donderdag 16-17-18 April: Computers repareren'
-layout: post
 date: 2013-04-19
 categories:
   - Tanzania
-type: "post"
 
 
 ---

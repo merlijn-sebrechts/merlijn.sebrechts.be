@@ -1,10 +1,8 @@
 ---
 title: 'Donderdag 2 mei: Toch hoop'
-layout: post
 date: 2013-05-04
 categories:
   - Tanzania
-type: "post"
 
 
 ---

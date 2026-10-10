@@ -1,0 +1,101 @@
+{{- /*
+  schema.org structured data (JSON-LD) for Google and other consumers.
+
+  Every page: WebSite + Person (configured in params.toml [person], sameAs from data/social.json).
+  /about/: ProfilePage with the Person as mainEntity.
+  Posts in mainSections: BlogPosting authored by the Person.
+
+  @id's are language-independent so all pages point at the same Person entity.
+*/ -}}
+{{- $root := "/" | absURL -}}
+{{- $personID := printf "%s#person" $root -}}
+{{- $websiteID := printf "%s#website" $root -}}
+{{- $p := site.Params.person -}}
+
+{{- $sameAs := slice -}}
+{{- range hugo.Data.social.main -}}
+  {{- if hasPrefix .link "http" -}}
+    {{- $sameAs = $sameAs | append .link -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $personImage := "" -}}
+{{- with resources.Get $p.image -}}
+  {{- $personImage = (.Fill "800x800 q85").Permalink -}}
+{{- end -}}
+
+{{- $orgs := slice -}}
+{{- range $p.works_for -}}
+  {{- $orgs = $orgs | append (dict "@type" .type "name" .name "url" .url) -}}
+{{- end -}}
+{{- $alumni := slice -}}
+{{- range $p.alumni_of -}}
+  {{- $alumni = $alumni | append (dict "@type" .type "name" .name "url" .url) -}}
+{{- end -}}
+
+{{- $person := dict
+  "@type" "Person"
+  "@id" $personID
+  "name" $p.name
+  "url" ("about/" | absURL)
+  "image" $personImage
+  "jobTitle" $p.job_title
+  "description" $p.description
+  "worksFor" $orgs
+  "alumniOf" $alumni
+  "knowsAbout" $p.knows_about
+  "sameAs" $sameAs
+-}}
+
+{{- $website := dict
+  "@type" "WebSite"
+  "@id" $websiteID
+  "url" $root
+  "name" site.Title
+  "inLanguage" site.Language.Locale
+  "publisher" (dict "@id" $personID)
+-}}
+
+{{- $graph := slice $website $person -}}
+
+{{- if eq .Permalink ("about/" | absURL) -}}
+  {{- $graph = $graph | append (dict
+    "@type" "ProfilePage"
+    "@id" .Permalink
+    "url" .Permalink
+    "name" .Title
+    "isPartOf" (dict "@id" $websiteID)
+    "mainEntity" (dict "@id" $personID)
+    "dateCreated" (.Date.Format "2006-01-02T15:04:05Z07:00")
+    "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")
+  ) -}}
+{{- else if and .IsPage (in site.Params.mainSections .Section) -}}
+  {{- $image := $personImage -}}
+  {{- with .Params.image -}}
+    {{- $image = . | absURL -}}
+  {{- end -}}
+  {{- $keywords := union (.Params.tags | default slice) (.Params.categories | default slice) -}}
+  {{- $post := dict
+    "@type" "BlogPosting"
+    "@id" (printf "%s#blogposting" .Permalink)
+    "url" .Permalink
+    "mainEntityOfPage" .Permalink
+    "headline" .Title
+    "description" (.Description | default (.Summary | plainify | htmlUnescape | strings.TrimSpace))
+    "image" $image
+    "datePublished" (.PublishDate.Format "2006-01-02T15:04:05Z07:00")
+    "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")
+    "inLanguage" site.Language.Locale
+    "author" (dict "@id" $personID)
+    "publisher" (dict "@id" $personID)
+    "isPartOf" (dict "@id" $websiteID)
+  -}}
+  {{- with $keywords -}}
+    {{- $post = merge $post (dict "keywords" (delimit . ", ")) -}}
+  {{- end -}}
+  {{- $graph = $graph | append $post -}}
+{{- end -}}
+
+<script type="application/ld+json">
+  {{- dict "@context" "https://schema.org" "@graph" $graph | jsonify | safeJS -}}
+</script>

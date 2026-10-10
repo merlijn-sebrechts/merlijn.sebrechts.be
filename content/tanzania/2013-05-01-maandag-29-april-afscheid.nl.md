@@ -1,10 +1,8 @@
 ---
 title: 'Maandag 29 april: Afscheid'
-layout: post
 date: 2013-05-01
 categories:
   - Tanzania
-type: "post"
 
 
 ---

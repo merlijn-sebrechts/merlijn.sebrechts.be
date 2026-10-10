@@ -1,10 +1,8 @@
 ---
 title: 'Mijn excuses: fotos (of het gebrek aan)'
-layout: post
 date: 2013-03-03
 categories:
   - Tanzania
-type: "post"
 
 
 ---

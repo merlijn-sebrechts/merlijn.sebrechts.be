@@ -1,7 +1,5 @@
 ---
 title: "Ghent University address book in Thunderbird"
-layout: post
-type: "post"
 date: 2022-08-31
 categories:
   - 'University'
@@ -9,7 +7,7 @@ tags:
   - 'Thunderbird'
   - 'Exchange ActiveSync'
   - 'Outlook'
-featured: "/2022/address-book-example.png"
+image: "img/2022/address-book-example.png"
 ---
 
 ## UGent address book support in Mozilla Thunderbird

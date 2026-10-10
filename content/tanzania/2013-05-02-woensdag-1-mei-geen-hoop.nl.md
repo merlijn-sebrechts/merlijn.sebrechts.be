@@ -1,10 +1,8 @@
 ---
 title: 'Woensdag 1 mei: geen hoop'
-layout: post
 date: 2013-05-02
 categories:
   - Tanzania
-type: "post"
 
 
 ---

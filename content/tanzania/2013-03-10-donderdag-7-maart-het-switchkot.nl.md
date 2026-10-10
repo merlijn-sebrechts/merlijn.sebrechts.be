@@ -1,10 +1,8 @@
 ---
 title: 'Donderdag 7 maart: het switchkot'
-layout: post
 date: 2013-03-10
 categories:
   - Tanzania
-type: "post"
 
 
 ---

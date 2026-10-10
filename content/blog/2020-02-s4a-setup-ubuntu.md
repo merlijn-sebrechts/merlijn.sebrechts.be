@@ -1,13 +1,11 @@
 ---
 title: "Tutorial: S4A on Ubuntu"
-layout: post
-type: "post"
 date: 2020-02-23
 categories:
   - 'Linux'
 tags:
   - 'Snap'
-featured: "/2020/s4a/s4a-banner.png"
+image: "img/2020/s4a/s4a-banner.png"
 ---
 
 [S4A](http://s4a.cat/), or Scratch for Arduino, is an app that you can use to program Arduino boards using Scratch. You can program robots and LED's without writing any code: all you need to do is drag and drop instructions in the visual programming environment.

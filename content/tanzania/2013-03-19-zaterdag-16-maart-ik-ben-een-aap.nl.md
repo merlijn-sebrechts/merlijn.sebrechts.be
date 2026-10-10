@@ -1,10 +1,8 @@
 ---
 title: 'Zaterdag 16 Maart: ik ben een aap'
-layout: post
 date: 2013-03-19
 categories:
   - Tanzania
-type: "post"
 
 
 ---

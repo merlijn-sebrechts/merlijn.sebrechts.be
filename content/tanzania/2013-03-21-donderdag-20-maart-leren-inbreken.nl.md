@@ -1,10 +1,8 @@
 ---
 title: 'Donderdag 20 maart: leren inbreken'
-layout: post
 date: 2013-03-21
 categories:
   - Tanzania
-type: "post"
 
 
 ---

@@ -1,0 +1,10 @@
+[exec]
+  # Hugo's defaults plus tailwindcss, which css.TailwindCSS runs from node_modules
+  allow = ['^(dart-)?sass$', '^go$', '^git$', '^node$', '^postcss$', '^tailwindcss$']
+
+[node]
+  [node.permissions]
+    allowAddons = ["tailwindcss"]
+    allowChildProcess = ["tailwindcss"]
+    allowRead = [".", "..", "/"]
+    allowWorker = ["tailwindcss"]

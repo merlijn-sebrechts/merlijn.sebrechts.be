@@ -1,10 +1,8 @@
 ---
 title: Maandag 22 april
-layout: post
 date: 2013-04-25
 categories:
   - Tanzania
-type: "post"
 
 
 ---

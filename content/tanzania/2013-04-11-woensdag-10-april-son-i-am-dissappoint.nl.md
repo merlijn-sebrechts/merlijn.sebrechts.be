@@ -1,10 +1,8 @@
 ---
 title: 'Woensdag 10 april: son, I am dissappoint!'
-layout: post
 date: 2013-04-11
 categories:
   - Tanzania
-type: "post"
 
 
 ---

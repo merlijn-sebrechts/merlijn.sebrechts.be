@@ -1,0 +1,24 @@
+{{- /*
+  Image with caption, kept from the old theme so existing posts don't need edits.
+  Usage: {{< fancybox path="/img/2020/" file="x.png" caption="..." gallery="..." >}}
+  or positional: {{< fancybox "/img/2020/" "x.png" "caption" "gallery" >}}
+  path "date" resolves to /img/<year>/<month> of the page.
+*/ -}}
+{{- $path := .Get "path" | default (.Get 0) -}}
+{{- $file := .Get "file" | default (.Get 1) -}}
+{{- $caption := "" -}}
+{{- if .IsNamedParams -}}
+  {{- $caption = .Get "caption" -}}
+{{- else if ge (len .Params) 3 -}}
+  {{- $caption = .Get 2 -}}
+{{- end -}}
+{{- if eq $path "date" -}}
+  {{- $path = printf "/img/%s" (.Page.Date.Format "2006/01") -}}
+{{- end -}}
+{{- $src := path.Join $path $file | relURL -}}
+<figure>
+  <a href="{{ $src }}" class="glightbox"{{ with $caption }} data-title="{{ . }}"{{ end }}><img src="{{ $src }}" alt="{{ $caption | default $file | plainify }}" loading="lazy" decoding="async" /></a>
+  {{- with $caption }}
+  <figcaption>{{ . | markdownify }}</figcaption>
+  {{- end }}
+</figure>

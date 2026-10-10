@@ -1,10 +1,8 @@
 ---
 title: 'Maandag 11 maart: geen catchy titel'
-layout: post
 date: 2013-03-11
 categories:
   - Tanzania
-type: "post"
 
 
 ---

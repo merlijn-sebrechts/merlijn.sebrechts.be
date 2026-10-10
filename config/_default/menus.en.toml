@@ -1,0 +1,59 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "About"
+url = "/about/"
+weight = 2
+
+[[main]]
+name = "Talks"
+url = "/talks/"
+weight = 3
+
+[[main]]
+name = "Blog"
+url = "/blog/"
+weight = 4
+
+[[main]]
+name = "Tanzania (Dutch)"
+url = "/nl/tanzania/"
+weight = 5
+
+[[main]]
+name = "Categories"
+url = "/categories/"
+weight = 6
+
+
+# footer menu
+[[footer]]
+name = "About"
+url = "/about/"
+weight = 1
+
+[[footer]]
+name = "Lectures & courses"
+url = "/lectures-courses/"
+weight = 2
+
+[[footer]]
+name = "Trainings"
+url = "/trainings/"
+weight = 3
+
+[[footer]]
+name = "Theses"
+url = "/theses/"
+weight = 4
+
+[[footer]]
+name = "Awards"
+url = "/awards/"
+weight = 5

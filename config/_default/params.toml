@@ -1,0 +1,118 @@
+#################### default parameters ############################
+# favicon module: https://github.com/gethugothemes/hugo-modules/tree/master/images#favicon-implementation
+favicon = "images/favicon.png"
+# logo module: https://github.com/gethugothemes/hugo-modules/tree/master/images#logo-implementation
+# no logo image: the theme renders logo_text instead
+logo = ""
+logo_darkmode = ""
+# logo text will only show when logo is missing.
+logo_text = "Merlijn Sebrechts"
+# navbar fixed to top
+navbar_fixed = true
+# theme-mode
+theme_switcher = true
+theme_default = "system" # available options [light/dark/system]
+# Main Sections
+mainSections = ["blog"]
+# contact form action
+contact_form_action = "#"
+# google tag manager, see https://developers.google.com/tag-manager/
+google_tag_manager = ""
+google_adsense = ""
+custom_script = ""
+# copyright
+copyright = "© Merlijn Sebrechts"
+
+# Preloader
+[preloader]
+enable = false
+preloader = ""
+
+# Navigation button
+[navigation_button]
+enable = false
+label = ""
+link = ""
+
+# search
+# search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
+[search]
+enable = true
+primary_color = "#121212"
+include_sections = ["blog", "tanzania"]
+show_image = true
+show_description = true
+show_tags = true
+show_categories = true
+
+# announcement
+[announcement]
+enable = false
+expire_days = 7
+content = ""
+
+# seo meta data for OpenGraph / Twitter Card
+# seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
+[metadata]
+keywords = ["Merlijn Sebrechts", "WebAssembly", "Confidential Computing", "Open Source", "Ubuntu", "imec", "Ghent University"]
+description = "Teaching and researching software engineering"
+author = "Merlijn Sebrechts"
+twitter = "mesebrec"
+twitter_author = "mesebrec"
+image = "images/merlijn-sebrechts.jpg"
+
+# site verifications
+[site_verification]
+google = ""
+bing = ""
+baidu = ""
+facebook = ""
+mastodon = ""
+
+# cookies
+[cookies]
+enable = false
+expire_days = 60
+content = ""
+button = ""
+
+# diagrams
+[mermaid]
+js_url = 'https://cdn.jsdelivr.net/npm/mermaid@latest/dist/mermaid.esm.min.mjs'
+
+######################## sidebar widgets #########################
+[widgets]
+sidebar = ["categories", "tags"]
+
+# google map
+[google_map]
+enable = false
+
+# Subscription
+[subscription]
+enable = false
+
+# OpenRemark Comments
+[open_remark]
+enable = false
+
+######################## structured data (layouts/_partials/jsonld.html) #########################
+# Used for the schema.org Person / ProfilePage JSON-LD. `sameAs` comes from data/social.json.
+[person]
+name = "Merlijn Sebrechts"
+image = "images/merlijn-sebrechts.jpg"
+job_title = "Senior Researcher"
+description = "Senior researcher at imec and teaching fellow at Ghent University (IDLab), working on software deployment and trust in the cloud and on devices."
+knows_about = ["WebAssembly", "Confidential Computing", "Kubernetes", "Virtualization", "Open Source", "Software Deployment", "IT Law"]
+[[person.works_for]]
+type = "ResearchOrganization"
+name = "imec"
+url = "https://www.imec-int.com/"
+[[person.works_for]]
+type = "CollegeOrUniversity"
+name = "Ghent University"
+url = "https://www.ugent.be/"
+[[person.alumni_of]]
+type = "CollegeOrUniversity"
+name = "Ghent University"
+url = "https://www.ugent.be/"

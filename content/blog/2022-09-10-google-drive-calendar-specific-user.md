@@ -1,7 +1,5 @@
 ---
 title: "Open Google Drive and Google Calendar as a specific user"
-layout: post
-type: "post"
 date: 2022-09-10
 categories:
   - 'University'

@@ -1,7 +1,6 @@
 +++
 title = "Talks & Teaching"
 date = "2025-07-24"
-layout = "about"
 no_rss = true
 +++
 

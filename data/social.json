@@ -1,0 +1,39 @@
+{
+  "main": [
+    {
+      "name": "github",
+      "icon": "fab fa-github",
+      "link": "https://github.com/merlijn-sebrechts"
+    },
+    {
+      "name": "linkedin",
+      "icon": "fab fa-linkedin",
+      "link": "https://www.linkedin.com/in/merlijn-sebrechts"
+    },
+    {
+      "name": "twitter",
+      "icon": "fab fa-twitter",
+      "link": "https://twitter.com/mesebrec"
+    },
+    {
+      "name": "orcid",
+      "icon": "fab fa-orcid",
+      "link": "https://orcid.org/0000-0002-4093-7338"
+    },
+    {
+      "name": "researchgate",
+      "icon": "fab fa-researchgate",
+      "link": "https://www.researchgate.net/profile/Merlijn-Sebrechts"
+    },
+    {
+      "name": "email",
+      "icon": "fas fa-envelope",
+      "link": "mailto:merlijn.sebrechts@gmail.com"
+    },
+    {
+      "name": "rss",
+      "icon": "fas fa-rss",
+      "link": "/index.xml"
+    }
+  ]
+}

@@ -1,11 +1,9 @@
 ---
 title: "Dell EcoLoop Pro vs Premier backpack"
-layout: post
-type: "post"
 date: 2023-12-28
 categories:
   - 'Other'
-featured: "/2023/dell-ecoloop-pro-vs-premier.jpg"
+image: "img/2023/dell-ecoloop-pro-vs-premier.jpg"
 ---
 
 I bought the Dell EcoLoop Pro, so you don't have to.

@@ -1,7 +1,5 @@
 ---
 title: "You can finally disable Snap updates"
-layout: post
-type: "post"
 date: 2022-11-10
 categories:
   - 'Linux'

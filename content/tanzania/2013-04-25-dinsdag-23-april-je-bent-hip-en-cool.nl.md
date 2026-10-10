@@ -1,10 +1,8 @@
 ---
 title: 'Dinsdag 23 april: Je bent hip, en cool..'
-layout: post
 date: 2013-04-25
 categories:
   - Tanzania
-type: "post"
 
 
 ---

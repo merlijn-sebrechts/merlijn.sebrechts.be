@@ -1,10 +1,8 @@
 ---
 title: 'Dinsdag 12 maart: 2 fruitsapjes'
-layout: post
 date: 2013-03-12
 categories:
   - Tanzania
-type: "post"
 
 
 ---

@@ -1,0 +1,17 @@
+############# Dutch navigation ##############
+
+# main menu
+[[main]]
+name = "Tanzania"
+url = "/tanzania/"
+weight = 1
+
+[[main]]
+name = "Blog (Engels)"
+url = "https://merlijn.sebrechts.be/blog/" # absolute: relative menu URLs get the /nl prefix
+weight = 2
+
+[[main]]
+name = "Categorieën"
+url = "/categories/"
+weight = 3

@@ -1,10 +1,8 @@
 ---
 title: Veranderingen in mail-systeem
-layout: post
 date: 2013-03-21
 categories:
   - Tanzania
-type: "post"
 
 
 ---

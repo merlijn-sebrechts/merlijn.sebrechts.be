@@ -1,10 +1,8 @@
 ---
 title: '4 maart: eerste dag in kigoma'
-layout: post
 date: 2013-03-05
 categories:
   - Tanzania
-type: "post"
 
 
 ---

@@ -1,10 +1,8 @@
 ---
 title: 'Woensdag 3 april: ziek'
-layout: post
 date: 2013-04-06
 categories:
   - Tanzania
-type: "post"
 
 
 ---
