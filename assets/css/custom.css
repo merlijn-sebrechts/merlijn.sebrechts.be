@@ -1,1 +1,21 @@
 /* Add your own custom styles here */
+
+/* Footer social icons: the theme only spaces them horizontally (space-x-4), so when
+   they wrap to a second row in the narrow lg:col-3 column the rows overlap.
+   Lay them out as inline blocks with margin on all sides, and balance the rows
+   (e.g. 4 + 3 instead of 5 + 2) with text-wrap: balance. Browsers without
+   support for it just wrap normally. font-size 0 removes the whitespace gaps
+   between the inline items; the icons get their size back on the links. */
+.social-icons {
+  margin: -0.375rem;
+  font-size: 0;
+  line-height: 0;
+  text-wrap: balance;
+}
+.social-icons > li {
+  display: inline-block;
+  margin: 0.375rem;
+}
+.social-icons > li > a {
+  font-size: 1rem;
+}
