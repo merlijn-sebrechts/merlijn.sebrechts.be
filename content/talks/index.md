@@ -1,11 +1,11 @@
 +++
 title = "Talks & Teaching"
-date = "2024-06-07"
+date = "2025-07-24"
 layout = "about"
 no_rss = true
 +++
 
-This is a small selection of recorded talks and guest lectures I gave in the past.
+This is a small selection of recorded talks and guest lectures I gave in the past. For a full list of all talks and lectures I gave, see [Lectures and courses](/lectures-courses/).
 
 I love sharing my knowledge, both with peers and with the wider public! [Contact me](mailto:merlijn.sebrechts@gmail.com) if you’re looking for a speaker or guest lecturer on one of these topics.
 
@@ -32,6 +32,9 @@ I love sharing my knowledge, both with peers and with the wider public! [Contact
   </br>36c3, *December 2019*
 
 ## WebAssembly
+
+* **WebAssembly for IoT Devices: Interfacing with USB and I2C Hardware** ([recording](https://www.youtube.com/watch?v=BQyNe_9fkp4))
+  </br>WasmCon 2024, *12 November 2024*
 
 * **Bringing orchestration to the edge with Wasm component model** ([recording](https://www.youtube.com/watch?v=TSFHUiNxFqE))
   </br>Wasm Research Day 2023, *October 2023*

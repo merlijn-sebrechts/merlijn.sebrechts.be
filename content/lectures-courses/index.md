@@ -1,11 +1,38 @@
 +++
 title = "Lectures and courses"
-date = "2024-08-09"
+date = "2025-07-24"
 layout = "about"
 no_rss = true
 +++
 
 ## Conferences
+
+- **Confidential ML for unmanned vehicles (securing ML models from extraction)** ([event](https://cyberwalingalaxia.be/#program))
+  </br>Cyberwal in Galaxia 2025, _09 December 2025_
+
+- **WebAssembly for secure systems and services** ([event](https://www.meetup.com/sysghent/events/312172422))
+  </br>Systems Programming Ghent Meetup, _16 December 2025_
+
+- **WebAssembly as an enabler for multi-party confidential computing** ([event](https://www.cs.cmu.edu/~wasm/wasm-research-day-2025b.html))
+  </br>Wasm Research Day October 2025, _29 October 2025_
+
+- **WASI performance on IoT and embedded** ([event](https://www.cs.cmu.edu/~wasm/wasm-research-day-2025b.html))
+  </br>Wasm Research Day October 2025, _29 October 2025_
+
+- **Sandboxing the Sensor: Wasm as the future of programming Things** ([event](https://github.com/t2trg/2025-10-composable-code))
+  </br>IETF T2TRG Composable Code for Things, _13 October 2025_
+
+- **Software deployment and trust in the cloud and on devices** ([event](https://haic.fi/research/secure-systems-demo-day-2025/))
+  </br>Secure Systems Demo Day 2025, Helsinki-Aalto Institute for Cybersecurity, _16 June 2025_
+
+- **Resilient Cyber-Physical Devices with WebAssembly Sandboxing** ([event](https://smart-networks.europa.eu/ai-security-webinar-on-30-april-2025-at-1300-cest/), [recording](https://www.youtube.com/watch?v=-QHpswMEOKc))
+  </br>SNS JU AI & SECURITY Webinar, _30 April 2025_
+
+- **Keynote: WebAssembly beyond the browser** ([event](https://www.drupalcamp.be/en/drupal-dev-days-2025/session/keynote-webassembly-beyond-browser), [recording](https://www.youtube.com/watch?v=0N558ZubMXg))
+  </br>Drupal Dev Days 2025, _15 April 2025_
+
+- **Cyber-Physical WebAssembly: Interfacing with USB ad I2C Hardware** ([recording](https://fosdem.org/2025/schedule/event/fosdem-2025-6068-cyber-physical-webassembly-interfacing-with-usb-and-i2c-hardware/))
+  </br>FOSDEM 2025, _02 February 2025_
 
 - **Wat is "open" AI nu eigenlijk echt?** ([event](https://www.dagvandewetenschap.be/activiteiten/universiteit-gent-wat-is-open-ai-nu-eigenlijk-echt-op-locatie))
   </br>Science Festival Ghent, _24 November 2024_
@@ -14,25 +41,25 @@ no_rss = true
   </br>Science Festival Ghent, _24 November 2024_
 
 - **State of the cloud 2024**
-  </br>LSEC Annual General Meeting 2024, _20 November 2024_ [invited talk]
+  </br>LSEC Annual General Meeting 2024, _20 November 2024_
 
 - **WebAssembly for IoT Devices: Interfacing with USB and I2C Hardware** ([event](https://wasmcon24.sched.com/event/1iTc3))
   </br>WasmCon 2024, _12 November 2024_
 
 - **Cyber-physical WebAssembly**
-  </br>WebAssembly Research Center Discussion Series, _7 November 2024_ [invited talk]
+  </br>WebAssembly Research Center Discussion Series, _7 November 2024_
 
 - **Bringing Containerization to the Cyber-physical Edge with WebAssembly and WASI**
-  </br>Telefónica Research Tech Talk, _30 October 2024_ [invited talk]
+  </br>Telefónica Research Tech Talk, _30 October 2024_
 
 - **The Service Mesh Architecture** ([event](https://www.cionet.com/tribes/sessions/the-service-mesh-architecture?hsLang=en))
-  </br>CIONET squad sessions 2024, _15 October 2024_ [invited talk]
+  </br>CIONET squad sessions 2024, _15 October 2024_
 
 - **Panel: Platform Engineering: Unveiling the Next Evolution in DevOps** ([event](https://www.accelevents.com/e/dasa-connect-2024/portal/schedule/328496), [recording](https://www.youtube.com/watch?v=oX7MdWIYlSk))
-  </br>DASA Connect 2024, _31 May 2024_ [invited panelist]
+  </br>DASA Connect 2024, _31 May 2024_
 
 - **Keynote: AI is breaking Open Source** ([event](https://www.drupalcamp.be/en/drupalcamp-ghent-2024/session/ai-breaking-open-source), [recording](https://www.youtube.com/watch?v=VEs35wO2V68))
-  </br>Drupalcamp Ghent 2024, _11 May 2024_ [invited keynote]
+  </br>Drupalcamp Ghent 2024, _11 May 2024_
 
 - **Hoe open source software de (AI) wereld verbetert** ([event](https://www.dagvandewetenschap.be/activiteiten/universiteit-gent-hoe-open-source-software-de-ai-wereld-verbetert-op-locatie), [interview](https://urgent.fm/node/53538))
   </br>Science Festival Ghent, _26 November 2023_
@@ -50,13 +77,13 @@ no_rss = true
   </br>Ubuntu Summit 2023, _November 2023_
 
 - **Bringing orchestration to the edge with the wasm Component Model** ([event](https://www.cs.cmu.edu/~wasm/wasm-research-day-2023.html), [recording](https://www.youtube.com/watch?v=TSFHUiNxFqE&list=PLTxJmWeyp02CbDpQ4aLPVNBSfyoB_uYtC&index=7))
-  </br>Wasm Research Day 2023, 13 October 2023_ [invited talk]
+  </br>Wasm Research Day 2023, 13 October 2023_
 
 - **Zero-trust Encryption at Rest With Ceph, Vault and Rook**
-  </br>Crypto focus group - Belgian Cybersecurity Coalition, _6 March 2023_  [invited talk]
+  </br>Crypto focus group - Belgian Cybersecurity Coalition, _6 March 2023_
 
 - **Open Source Cloud Technologies & Solutions**
-  </br>Cloud Security focus group - Belgian Cybersecurity Coalition, _15 Februari 2023_ [invited talk]
+  </br>Cloud Security focus group - Belgian Cybersecurity Coalition, _15 Februari 2023_
 
 - **Vraag het aan een expert - Linux en Open Source**
   </br>FEA Alumnidag 2023, _March 2023_
@@ -68,7 +95,7 @@ no_rss = true
   </br>Science Labs Visiedag, _June 2022_
 
 - **Cloud: From Lift/Shift to the Complexity of Cloud-Native**
-  </br>V-ICT-OR, _13 September 2022_ [invited talk]
+  </br>V-ICT-OR, _13 September 2022_
 
 - **Solving conflict in a community of equals** ([recording](https://www.youtube.com/watch?v=Gng6-nfITkY))
   </br>Remote Chaos Communications Congress, _December 2020_
@@ -80,7 +107,7 @@ no_rss = true
   </br>36c3, _December 2019_
 
 - **Tengu: A Big Data Experimentation Sandbox** ([recording](https://www.youtube.com/watch?v=k5ynlbP1jfE))
-  </br>Juju Charmers Summit Pasadena, _13 September 2016_ [invited talk]
+  </br>Juju Charmers Summit Pasadena, _13 September 2016_
 
 ## Teaching
 
@@ -90,13 +117,13 @@ no_rss = true
   </br>Bachelor of Science in Computer Science (course Webdevelopment), _2025_
 
 - **Introduction to GDPR***
-  </br>Bachelor of Science in information engineering technology, _2024 - now_
+  </br>Bachelor of Science in information engineering technology, _2024 - now (yearly)_
 
 - **Introduction to Open Source & IP law**
-  </br>Bachelor of Science in information engineering technology, _2023 - now_
+  </br>Bachelor of Science in information engineering technology, _2023 - now (yearly)_
 
 - **DevOps - software testing**
-  </br>Bachelor of Science in Computer Science, _2024_
+  </br>Bachelor of Science in Computer Science, _2024 - now (yearly)_
 
 - **OpenCloudification workshops and webinars**
   </br>Bi-monthly webinars and workshops on Cloud, Edge and Open Source software, _2022 - now_
