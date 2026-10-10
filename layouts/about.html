@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <section class="section-sm">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="md:col-10 lg:col-8">
+          {{ if .Params.image }}
+            {{/* site override: small round avatar instead of a full-width photo */}}
+            {{ partial "image" (dict "Src" .Params.image "Context" .Page "Alt" .Title "Class" "mx-auto mb-6 aspect-square w-40 rounded-full object-cover" "DisplayXL" "320x" "DisplayLG" "320x" "DisplayMD" "320x" "DisplaySM" "320x" ) }}
+          {{ end }}
+          <h2 class="h3 mb-6">{{ .Title }}</h2>
+          <div class="content">{{ .Content }}</div>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}
