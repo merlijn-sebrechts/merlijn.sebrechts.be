@@ -4,6 +4,8 @@ image: "img/old/Who_Watches_the_Watchmen.jpg"
 date: 2015-09-13
 categories:
   - 'Linux'
+aliases:
+  - "/blog/perf-interrupt-took-to-long/"
 ---
 
 ## Wifi problems

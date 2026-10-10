@@ -1,0 +1,19 @@
+<!-- old Dutch Tanzania blog (hidden on that blog's own list) -->
+{{ if ne .Section "tanzania" }}
+  {{ with site.GetPage "/tanzania" }}
+    <div class="mb-8">
+      <h5 class="mb-6">Older blog (in Dutch)</h5>
+      <div class="bg-light dark:bg-darkmode-light rounded p-8">
+        <p class="mb-4">
+          In 2013 I blogged almost daily about my internship in Kigoma,
+          Tanzania.
+        </p>
+        <a
+          class="hover:text-primary dark:hover:text-darkmode-primary font-semibold"
+          href="{{ .RelPermalink }}">
+          Read it &rarr;
+        </a>
+      </div>
+    </div>
+  {{ end }}
+{{ end }}

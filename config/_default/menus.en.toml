@@ -21,16 +21,6 @@ name = "Blog"
 url = "/blog/"
 weight = 4
 
-[[main]]
-name = "Tanzania (Dutch)"
-url = "/nl/tanzania/"
-weight = 5
-
-[[main]]
-name = "Categories"
-url = "/categories/"
-weight = 6
-
 
 # footer menu
 [[footer]]

@@ -14,4 +14,6 @@ features:
       enable: true
       label: "Speaking & consulting"
       link: "talks/"
+aliases:
+  - "/en/"
 ---

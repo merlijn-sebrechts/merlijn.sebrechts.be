@@ -26,6 +26,11 @@ ID = 'G-MEASUREMENT_ID' # placeholder: renders nothing. The old UA-172953075-1 p
 ########################## Permalinks ############################
 [permalinks.page]
 "pages" = "/:slugorcontentbasename/"
+# The Tanzania blog used to be the Dutch language of this site; keep its URLs.
+"tanzania" = "/nl/tanzania/:contentbasename/"
+
+[permalinks.section]
+"tanzania" = "/nl/tanzania/"
 
 
 ########################## Pagination ############################

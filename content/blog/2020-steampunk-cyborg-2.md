@@ -6,6 +6,8 @@ categories:
 tags:
   - 'Heart'
 image: "img/2019/mechanical-valve.png"
+aliases:
+  - "/blog/2019-steampunk-cyborg-2/"
 ---
 
 > This is part 2 of a series on how I became a cyborg. Warning: this article talks in details about heart surgery and shows post-op images.

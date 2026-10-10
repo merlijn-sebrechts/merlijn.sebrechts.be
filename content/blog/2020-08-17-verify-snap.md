@@ -5,6 +5,8 @@ categories:
   - 'Linux'
 tags:
   - 'Snap'
+aliases:
+  - "/blog/2020-08-17-audit-snap/"
 ---
 
 Many [Snap packages](https://snapcraft.io/) contain two files which allow users to verify what sources were used to build the package.

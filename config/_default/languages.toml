@@ -1,18 +1,5 @@
 ################ English language ##################
-# No contentDir: translations use the filename suffix (e.g. `post.nl.md`),
-# so existing /nl/... URLs stay the same.
 [en]
 label = "En"
 locale = "en-US"
 weight = 1
-
-################ Dutch language ##################
-[nl]
-label = "Nl"
-locale = "nl-BE"
-weight = 2
-title = "Merlijn Sebrechts"
-[nl.params]
-mainSections = ["tanzania"]
-[nl.params.metadata]
-description = "Meer context bij technologie"

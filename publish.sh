@@ -3,6 +3,10 @@ set -e
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
+# Start from an empty public/ so pages that no longer exist get removed.
+# The glob skips dotfiles, so public/.git stays.
+rm -rf public/*
+
 # Build the project.
 npm run build
 
