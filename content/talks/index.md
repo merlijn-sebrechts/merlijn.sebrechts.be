@@ -1,12 +1,12 @@
 +++
 title = "Speaking & consulting"
-date = "2025-07-24"
+date = "2026-10-10"
 no_rss = true
 +++
 
-This is a small selection of recorded talks and guest lectures I gave in the past. For a full list of all talks and lectures I gave, see [Lectures and courses](/lectures-courses/).
+I often help companies innovate and help audiences understand complex topics. [Contact me](mailto:merlijn.sebrechts@ugent.be) if you’re looking for a speaker or for help navigating the quickly changing landscape of software & AI.
 
-I love sharing my knowledge, both with peers and with the wider public! [Contact me](mailto:merlijn.sebrechts@gmail.com) if you’re looking for a speaker or guest lecturer on one of these topics.
+Below you can find a small selection of recorded talks and guest lectures I gave in the past. For a full list of all talks and lectures I gave, see [Lectures and courses](/lectures-courses/).
 
 ## Open source
 
