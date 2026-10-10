@@ -2,10 +2,10 @@
   <section class="section pt-7">
     <div class="container">
       <div class="row justify-center">
-        <article class="lg:col-10">
+        <article class="lg:col-8">
           {{ $image:= .Params.image }}
           {{ if $image }}
-            <div class="mb-10">
+            <div class="mx-auto mb-10 w-4/5">
               {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "w-full rounded") }}
             </div>
           {{ end }}
