@@ -1,5 +1,5 @@
 +++
-title = "Talks & Teaching"
+title = "Speaking & consulting"
 date = "2025-07-24"
 no_rss = true
 +++

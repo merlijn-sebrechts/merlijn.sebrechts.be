@@ -1,25 +1,17 @@
 ---
 title: "Merlijn Sebrechts"
-description: "Teaching and researching software engineering. Senior researcher at imec and teaching fellow at Ghent University."
-
-banner:
-  title: "Merlijn Sebrechts"
-  content: "Teaching and researching software engineering"
-  button:
-    enable: true
-    label: "About me"
-    link: "about/"
+description: "Senior researcher at imec and teaching at Ghent University. Ubuntu Community Council member. Research on cybersecurity and trust for software & AI."
 
 features:
-  - title: "Software deployment and trust"
-    image: "images/merlijn-sebrechts.jpg"
-    content: "I'm a senior researcher at imec and teaching fellow at Ghent University in the IDLab research group in Belgium. I lead research tracks on software deployment and trust in the cloud and on devices."
+  - title: "Merlijn Sebrechts"
+    image: "images/merlijn-sebrechts-portrait.jpg"
+    content: "Senior researcher at imec and teaching at Ghent University. Ubuntu Community Council member. I lead a number of research tracks focused on cybersecurity and trust for software & AI."
     bulletpoints:
-      - "WebAssembly and confidential computing"
-      - "Kubernetes, virtualization and IoT deployment"
-      - "Open source governance, as part of the Ubuntu Community Council"
+      - "Protecting data and software from physical and digital attacks"
+      - "Trustworthy & robust distributed systems"
+      - "AI supply chain insight & trust"
     button:
       enable: true
-      label: "Talks & teaching"
+      label: "Speaking & consulting"
       link: "talks/"
 ---
