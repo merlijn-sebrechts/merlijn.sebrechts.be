@@ -186,3 +186,6 @@
 {{ with $twitterAuthor }}
   <meta name="twitter:creator" content="@{{ . }}" />
 {{ end }}
+{{ with site.Params.metadata.fediverse_creator }}
+  <meta name="fediverse:creator" content="{{ . }}" />
+{{ end }}

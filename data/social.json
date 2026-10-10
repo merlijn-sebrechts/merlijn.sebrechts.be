@@ -16,6 +16,11 @@
       "link": "https://twitter.com/mesebrec"
     },
     {
+      "name": "mastodon",
+      "icon": "fab fa-mastodon",
+      "link": "https://ubuntu.social/@mesebrec"
+    },
+    {
       "name": "orcid",
       "icon": "fab fa-orcid",
       "link": "https://orcid.org/0000-0002-4093-7338"
