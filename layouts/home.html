@@ -42,10 +42,13 @@
       <div class="container">
         <div class="row items-center justify-between">
           <div
-            class="mb:md-0 {{ if not (modBool $i 2) }}
+            class="{{ if not (modBool $i 2) }}
               md:order-2
-            {{ end }} md:col-5 mb-6">
-            {{ partial "image" (dict "Src" .image "Alt" "feature image" "Class" "mx-auto w-auto max-h-96" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x") }}
+            {{ end }} md:col-5 mb-6 md:relative md:mb-0 md:self-stretch">
+            {{/* From md up the image column stretches to the text column's height and the
+              square image fills it, so it spans from the top of the title to the bottom of
+              the button. h-full! beats the images module's unlayered `.img { height: auto }`. */}}
+            {{ partial "image" (dict "Src" .image "Alt" "feature image" "Class" "mx-auto aspect-square w-80 rounded object-cover object-[center_15%] md:absolute md:inset-y-0 md:left-1/2 md:h-full! md:w-auto md:-translate-x-1/2" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x") }}
           </div>
           <div
             class="{{ if not (modBool $i 2) }}
@@ -59,7 +62,7 @@
             </p>
             <ul>
               {{ range .bulletpoints }}
-                <li class="relative mb-4 pl-6">
+                <li class="relative mb-2 pl-6">
                   <i class="fa fa-check absolute left-0 top-1.5"></i>
                   {{ . | markdownify }}
                 </li>
