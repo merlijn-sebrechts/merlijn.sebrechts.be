@@ -1,0 +1,56 @@
+{{- /*
+  Override of Hugoplate's blog card: every card in a row has the same height.
+  - image cropped into a fixed 2:1 frame; posts without image get a placeholder
+  - title max 2 lines, summary max 3 lines (plain text)
+  - "read more" button pinned to the bottom of the card
+  h-full! is needed because the images module sets `.img { height: auto }` outside a CSS layer.
+*/ -}}
+<div class="bg-body dark:bg-darkmode-body flex h-full flex-col">
+  <a
+    href="{{ .RelPermalink }}"
+    class="mb-6 block aspect-[2/1] overflow-hidden rounded"
+    aria-hidden="true"
+    tabindex="-1">
+    {{ with .Params.image }}
+      {{ partial "image" (dict "Src" . "Context" $.Page "Alt" $.Title "Loading" "lazy" "Class" "h-full! w-full object-cover") }}
+    {{ else }}
+      <div
+        class="bg-light dark:bg-darkmode-light text-text-light flex h-full w-full items-center justify-center">
+        <i class="fa-regular fa-newspaper text-4xl opacity-40"></i>
+      </div>
+    {{ end }}
+  </a>
+  <h4 class="mb-3 line-clamp-2">
+    <a href="{{ .RelPermalink }}">
+      {{ .Title }}
+    </a>
+  </h4>
+  {{ $categories:= .Params.categories }}
+  {{ if $categories }}
+    <ul class="mb-4">
+      <li class="mr-4 inline-block">
+        <a href="{{ `authors/` | relLangURL }}{{ .Params.Author | urlize }}/">
+          <i class="fa-regular fa-circle-user mr-2"></i>{{ .Params.author }}
+        </a>
+      </li>
+      <li class="mr-4 inline-block">
+        <i class="fa-regular fa-folder mr-1"></i>
+        {{ range $i,$p:= $categories }}
+          <a
+            href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/"
+            class="ms-1"
+            >{{ . | humanize }}{{ if ne $i (sub (len $categories) 1) }}
+              {{ "," }}
+            {{ end }}
+          </a>
+        {{ end }}
+      </li>
+    </ul>
+  {{ end }}
+  <p class="mb-6 line-clamp-3">{{ .Summary | plainify | htmlUnescape }}</p>
+  <a
+    class="btn btn-outline-primary btn-sm mt-auto self-start"
+    href="{{ .RelPermalink }}">
+    {{ T "read_more" | default "Read More" }}
+  </a>
+</div>
