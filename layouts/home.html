@@ -60,7 +60,8 @@
             <p class="mb-8 text-lg">
               {{ .content | markdownify }}
             </p>
-            <ul>
+            {{/* text-lg: same size as the intro paragraph above (body text is a fixed 16px) */}}
+            <ul class="text-lg">
               {{ range .bulletpoints }}
                 <li class="relative mb-2 pl-6">
                   <i class="fa fa-check absolute left-0 top-1.5"></i>

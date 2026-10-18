@@ -19,3 +19,15 @@
 .social-icons > li > a {
   font-size: 1rem;
 }
+
+/* Post and about content: the typography plugin sizes .content at 1rem, and the
+   theme shrinks the root font to text-base-sm (12.8px) below md. Paragraphs are
+   explicitly text-base (16px), so on small screens list items, tables, etc.
+   (which inherit from .content) came out smaller than the paragraphs around
+   them. Give .content the same base size as the paragraphs. Same for the line
+   height: paragraphs get text-base's 1.5, the rest inherited the plugin's 1.75,
+   so lines in list items were spaced further apart than in paragraphs. */
+.content {
+  font-size: var(--text-base);
+  line-height: var(--text-base--line-height);
+}
