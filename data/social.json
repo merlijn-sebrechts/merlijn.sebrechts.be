@@ -31,6 +31,16 @@
       "link": "https://www.researchgate.net/profile/Merlijn-Sebrechts"
     },
     {
+      "name": "google scholar",
+      "icon": "fab fa-google-scholar",
+      "link": "https://scholar.google.com/citations?user=hjwZ4qIAAAAJ"
+    },
+    {
+      "name": "ghent university",
+      "icon": "fas fa-building-columns",
+      "link": "https://research.ugent.be/web/person/merlijn-sebrechts-0/nl"
+    },
+    {
       "name": "email",
       "icon": "fas fa-envelope",
       "link": "mailto:merlijn.sebrechts@gmail.com"
