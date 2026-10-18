@@ -47,10 +47,12 @@
 {{ partialCached "custom-script.html" . }}
 
 
-<!-- google analytics -->
-{{/* https://gohugo.io/templates/embedded/#configuration-google-analytics */}}
-{{ if and site.Config.Services.GoogleAnalytics.ID (ne site.Config.Services.GoogleAnalytics.ID "G-MEASUREMENT_ID") }}
-  {{ partial "google_analytics.html" . }}
+<!-- cloudflare web analytics (site override, production builds only) -->
+{{/* https://developers.cloudflare.com/web-analytics/ */}}
+{{ with site.Params.cloudflare_analytics_token }}
+  {{ if hugo.IsProduction }}
+    <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ . }}"}'></script>
+  {{ end }}
 {{ end }}
 
 

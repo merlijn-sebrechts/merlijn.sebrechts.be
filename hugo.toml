@@ -20,8 +20,7 @@ defaultContentLanguageInSubdir = false
 
 ########################### Services #############################
 [services]
-[services.googleAnalytics]
-ID = 'G-MEASUREMENT_ID' # placeholder: renders nothing. The old UA-172953075-1 property no longer works # see https://gohugo.io/templates/internal/#configure-google-analytics
+# Analytics: Cloudflare Web Analytics, see cloudflare_analytics_token in config/_default/params.toml
 
 ########################## Permalinks ############################
 [permalinks.page]

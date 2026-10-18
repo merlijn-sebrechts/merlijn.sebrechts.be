@@ -20,6 +20,8 @@ contact_form_action = "#"
 google_tag_manager = ""
 google_adsense = ""
 custom_script = ""
+# Cloudflare Web Analytics site token (empty: renders nothing)
+cloudflare_analytics_token = "d78fec493d144ce687754d44d750af02"
 # copyright
 copyright = "© Merlijn Sebrechts"
 
