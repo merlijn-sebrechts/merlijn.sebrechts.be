@@ -4,7 +4,7 @@ date = "2025-07-24"
 no_rss = true
 +++
 
-## Conferences
+## Public speaking
 
 - **Confidential ML for unmanned vehicles (securing ML models from extraction)** ([event](https://cyberwalingalaxia.be/#program))
   </br>Cyberwal in Galaxia 2025, _09 December 2025_
