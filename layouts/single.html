@@ -1,0 +1,17 @@
+{{ define "main" }}
+  {{ partial "page-header" . }}
+
+
+  <section class="section-sm">
+    <div class="container">
+      <div class="row justify-center">
+        {{/* site override: same text width as the about page (layouts/about.html) */}}
+        <div class="md:col-10 lg:col-8">
+          <div class="content">
+            {{ .Content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}
