@@ -6,7 +6,7 @@
         {
             "label": "Start Dev Server",
             "type": "shell",
-            "command": "hugo server -D",
+            "command": "hugo server -D --renderToMemory",
             "group": {
                 "kind": "build",
                 "isDefault": true

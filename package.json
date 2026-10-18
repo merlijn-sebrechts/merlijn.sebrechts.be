@@ -3,7 +3,7 @@
   "description": "Personal website of Merlijn Sebrechts, built with Hugo and the Hugoplate theme",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"node scripts/themeGenerator.js --watch\" \"hugo server\"",
+    "dev": "concurrently \"node scripts/themeGenerator.js --watch\" \"hugo server --renderToMemory\"",
     "build": "node scripts/themeGenerator.js && hugo --gc --minify",
     "update-modules": "hugo mod get -u ./... && hugo mod tidy",
     "postinstall": "node -e \"const fs=require('fs'),p='node_modules/.bin/tailwindcss';try{fs.lstatSync(p).isSymbolicLink()||((fs.unlinkSync(p)),fs.symlinkSync('../@tailwindcss/cli/dist/index.mjs',p))}catch(e){}\""
