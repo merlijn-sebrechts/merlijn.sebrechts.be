@@ -194,3 +194,10 @@
 .dark .chroma .gt { color:#ff7b72 }
 .dark .chroma .gl { text-decoration:underline }
 .dark .chroma .w { color:#6e7681 }
+
+/* Blockquotes: the typography plugin wraps them in curly quotation marks.
+   Quotes are added in the content itself where needed. */
+.content blockquote p::before,
+.content blockquote p::after {
+  content: none;
+}
