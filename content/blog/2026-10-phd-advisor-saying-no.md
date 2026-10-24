@@ -4,6 +4,8 @@ date: 2026-10-10
 categories:
   - 'University'
 image: "img/2026/IMG-20210711-WA0001.jpeg"
+aliases:
+  - "/blog/2025-10-phd-advisor-saying-no/"
 ---
 
 Over the past few months, I've had multiple conversations with PhD students around a similar topic: the fact that a significant part of my coaching involves critiquing their work and suggesting alternatives.
