@@ -41,9 +41,9 @@ You can stop the connection using `Ctrl`-`C`.
 
 > Explanation:
 >
-> The `--useragent=AnyConnect` part is required because otherwise, the VPN server will think your client doesn't support SSO and fall back to a password-based login method that doesn't work anymore.
+> * The `--useragent=AnyConnect` part is required because otherwise, the VPN server will think your client doesn't support SSO and fall back to a password-based login method that doesn't work anymore.
 >
-> You need two commands because the first one needs to run as your own user so it can open your browser, and the second one requires root permissions to set up the tunnel.
+> * You need two commands because the first one needs to run as your own user so it can open your browser, and the second one requires root permissions to set up the tunnel.
 >
 > Tested on Ubuntu 26.04 LTS (GNOME on Wayland) with openconnect 9.12.
 
