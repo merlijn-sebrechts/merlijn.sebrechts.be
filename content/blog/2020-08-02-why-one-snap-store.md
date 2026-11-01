@@ -6,6 +6,8 @@ categories:
 tags:
   - 'Snap'
 image: "img/2020/snap-flatpak/snap-store.png"
+aliases:
+ - /blog/2020-08-02-
 ---
 
 Snap and Flatpak are the basis of two universal app stores for Linux: the [Snap Store](https://snapcraft.io/store) and [Flathub](https://flathub.org/home). Interestingly, Flatpak has multiple repositories: Flathub is the main one but both Fedora and Elementary OS also host their own store. In contrast; there is only one Snap store. Why is that?
