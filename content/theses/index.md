@@ -1,8 +1,8 @@
-+++
-title = "Supervision of master's and doctoral theses"
-date = "2025-01-12"
-no_rss = true
-+++
+---
+title: "Supervision of master's and doctoral theses"
+date: 2025-01-12
+no_rss: true
+---
 
 ## Supervision
 

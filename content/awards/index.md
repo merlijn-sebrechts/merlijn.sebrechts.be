@@ -1,8 +1,8 @@
-+++
-title = "Awards"
-date = "2024-08-09"
-no_rss = true
-+++
+---
+title: "Awards"
+date: 2024-08-09
+no_rss: true
+---
 
 - 2024 - Best Paper Award at CLOSER 2024: "Feather: Lightweight Container Alternatives for Deploying Workloads in the Edge"
 - 2022 - Top Downloaded Article Software: Practice and Experience: "Design and evaluation of a scalable Internet of Things backend for smart ports"

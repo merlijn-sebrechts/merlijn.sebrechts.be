@@ -1,9 +1,10 @@
-+++
-title = "Trainings"
-date = "2024-08-09"
-no_rss = true
-aliases = ["/training/"]
-+++
+---
+title: "Trainings"
+date: 2024-08-09
+no_rss: true
+aliases:
+  - "/training/"
+---
 
 ## 2023-2024
 

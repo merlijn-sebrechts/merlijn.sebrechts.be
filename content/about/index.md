@@ -1,11 +1,11 @@
-+++
-title = "About Merlijn Sebrechts"
-date = "2023-02-06"
-layout = "about"
-image = "images/merlijn-sebrechts.jpg"
-description = "Merlijn Sebrechts is a senior researcher at imec and teaches at Ghent University (IDLab), working on cybersecurity and trust for software and AI, from the cloud to devices."
-no_rss = true
-+++
+---
+title: "About Merlijn Sebrechts"
+date: 2023-02-06
+layout: "about"
+image: "images/merlijn-sebrechts.jpg"
+description: "Merlijn Sebrechts is a senior researcher at imec and teaches at Ghent University (IDLab), working on cybersecurity and trust for software and AI, from the cloud to devices."
+no_rss: true
+---
 
 I'm a senior researcher at imec and teach at Ghent University, in the IDLab research group in Belgium. My work focuses on one question: **how can you trust the software and AI you depend on?** That covers where it runs, what is inside it, and who can see the data it processes.
 

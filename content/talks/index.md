@@ -1,8 +1,8 @@
-+++
-title = "Speaking & consulting"
-date = "2026-10-10"
-no_rss = true
-+++
+---
+title: "Speaking & consulting"
+date: 2026-10-10
+no_rss: true
+---
 
 I often help companies innovate and help audiences understand complex topics. [Contact me](mailto:merlijn.sebrechts@ugent.be) if you’re looking for a speaker or for help navigating the quickly changing landscape of software & AI.
 

@@ -1,8 +1,8 @@
-+++
-title = "Lectures and courses"
-date = "2025-07-24"
-no_rss = true
-+++
+---
+title: "Lectures and courses"
+date: 2025-07-24
+no_rss: true
+---
 
 ## Public speaking
 
