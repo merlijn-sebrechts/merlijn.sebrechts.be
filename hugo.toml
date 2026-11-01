@@ -68,10 +68,12 @@ term     = ["HTML", "RSS"]
 
 ############################# Imaging ############################
 [imaging]
-# See https://github.com/disintegration/imaging
-# Default JPEG or WebP quality setting. Default is 75.
-quality = 80
 resampleFilter = "Lanczos"
+# Default quality is 75; we use 80 for the formats this site outputs
+[imaging.jpeg]
+quality = 80
+[imaging.webp]
+quality = 80
 
 ############################ Caches ##############################
 [caches]
