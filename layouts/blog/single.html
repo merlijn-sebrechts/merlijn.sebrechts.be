@@ -6,7 +6,15 @@
           {{ $image:= .Params.image }}
           {{ if $image }}
             <div class="mx-auto mb-10 w-4/5">
-              {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "w-full rounded") }}
+              {{- /* The header image is the largest element above the fold (the LCP
+                element), so serve it resized and load it eagerly with high priority.
+                sizes: 4/5 of the article column (full container width below lg,
+                lg:col-8 from lg up; container is 1320px from xl). */ -}}
+              {{ with resources.Get (strings.TrimPrefix "/" $image) }}
+                {{ partial "responsive-image" (dict "Resource" . "Alt" $.Title "Class" "w-full rounded" "Loading" "eager" "FetchPriority" "high" "Widths" (slice 400 600 800 1200) "Sizes" "(min-width: 1280px) 670px, (min-width: 1024px) 510px, (min-width: 768px) 590px, (min-width: 640px) 490px, 80vw") }}
+              {{ else }}
+                {{ partial "image" (dict "Src" $image "Context" $.Page "Alt" $.Title "Class" "w-full rounded") }}
+              {{ end }}
             </div>
           {{ end }}
           <h1 class="h2 mb-4">

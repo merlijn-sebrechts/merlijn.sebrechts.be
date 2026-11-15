@@ -1,0 +1,80 @@
+{{- /*
+  Responsive <img> for an image resource: WebP at several widths with srcset/sizes,
+  plus width/height so the browser can reserve space before the image loads.
+
+  The images module's "image" partial serves files from static/ untouched; static/img
+  is mounted into assets/img (see hugo.toml), so callers can resources.Get those files
+  and pass them here instead.
+
+  Parameters (dict):
+    Resource       image resource (required)
+    Alt, Class     alt text and extra classes ("img" is always added)
+    Loading        "lazy" (default) or "eager"
+    FetchPriority  optional, e.g. "high" for the LCP image
+    Sizes          the sizes attribute
+    Widths         candidate widths, default 400 800 1200
+    Ratio          optional "w:h", e.g. "2:1": center-crop to that ratio at every width.
+                   Without it, images are resized keeping their aspect ratio, and never
+                   upscaled beyond the original width.
+
+  GIF (may be animated), SVG and other formats are output as the original file.
+*/ -}}
+{{- $r := .Resource -}}
+{{- $loading := .Loading | default "lazy" -}}
+{{- $fetchpriority := .FetchPriority | default "" -}}
+{{- $class := trim (printf "img %s" (.Class | default "")) " " -}}
+{{- $widths := .Widths | default (slice 400 800 1200) -}}
+{{- if in (slice "jpeg" "png" "webp") $r.MediaType.SubType -}}
+  {{- $images := slice -}}
+  {{- with .Ratio -}}
+    {{- $parts := split . ":" -}}
+    {{- $rw := int (index $parts 0) -}}
+    {{- $rh := int (index $parts 1) -}}
+    {{- range $widths -}}
+      {{- $images = $images | append ($r.Fill (printf "%dx%d webp Center" . (div (mul . $rh) $rw))) -}}
+    {{- end -}}
+  {{- else -}}
+    {{- $max := index (last 1 $widths) 0 -}}
+    {{- range $widths -}}
+      {{- if lt . $r.Width -}}
+        {{- $images = $images | append ($r.Resize (printf "%dx webp" .)) -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if le $r.Width $max -}}
+      {{- $images = $images | append ($r.Resize (printf "%dx webp" $r.Width)) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $main := index $images (div (len $images) 2) -}}
+  {{- $srcset := slice -}}
+  {{- range $images -}}
+    {{- $srcset = $srcset | append (printf "%s %dw" .RelPermalink .Width) -}}
+  {{- end -}}
+  <img
+    src="{{ $main.RelPermalink }}"
+    srcset="{{ delimit $srcset ", " }}"
+    {{- with .Sizes }}
+      sizes="{{ . }}"
+    {{- end }}
+    width="{{ $main.Width }}"
+    height="{{ $main.Height }}"
+    alt="{{ .Alt }}"
+    loading="{{ $loading }}"
+    decoding="async"
+    {{- with $fetchpriority }}
+      fetchpriority="{{ . }}"
+    {{- end }}
+    class="{{ $class }}" />
+{{- else -}}
+  <img
+    src="{{ $r.RelPermalink }}"
+    {{- if eq $r.MediaType.SubType "gif" }}{{/* SVG has no .Width */}}
+      width="{{ $r.Width }}" height="{{ $r.Height }}"
+    {{- end }}
+    alt="{{ .Alt }}"
+    loading="{{ $loading }}"
+    decoding="async"
+    {{- with $fetchpriority }}
+      fetchpriority="{{ . }}"
+    {{- end }}
+    class="{{ $class }}" />
+{{- end -}}

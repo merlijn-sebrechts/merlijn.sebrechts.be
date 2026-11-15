@@ -13,22 +13,9 @@
     tabindex="-1">
     {{ with .Params.image }}
       {{- /* The images module serves files found in static/ untouched, so cards would
-        download full-size originals. static/img is mounted into assets/, so we
-        resize those here into 2:1 WebP crops at a few widths. */ -}}
-      {{ with resources.Get . }}
-        {{ $sm := .Fill "400x200 webp Center" }}
-        {{ $md := .Fill "800x400 webp Center" }}
-        {{ $lg := .Fill "1200x600 webp Center" }}
-        <img
-          src="{{ $md.RelPermalink }}"
-          srcset="{{ $sm.RelPermalink }} 400w, {{ $md.RelPermalink }} 800w, {{ $lg.RelPermalink }} 1200w"
-          sizes="(min-width: 768px) 400px, 100vw"
-          width="{{ $md.Width }}"
-          height="{{ $md.Height }}"
-          alt="{{ $.Title }}"
-          loading="lazy"
-          decoding="async"
-          class="img h-full! w-full object-cover" />
+        download full-size originals. Resize them into 2:1 WebP crops instead. */ -}}
+      {{ with resources.Get (strings.TrimPrefix "/" .) }}
+        {{ partial "responsive-image" (dict "Resource" . "Ratio" "2:1" "Alt" $.Title "Sizes" "(min-width: 768px) 400px, 100vw" "Class" "h-full! w-full object-cover") }}
       {{ else }}
         {{ partial "image" (dict "Src" . "Context" $.Page "Alt" $.Title "Loading" "lazy" "Class" "h-full! w-full object-cover") }}
       {{ end }}
