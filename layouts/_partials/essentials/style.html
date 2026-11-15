@@ -1,0 +1,100 @@
+{{- /*
+  Override of Hugoplate's style partial:
+  - Only preconnect to origins the site actually uses (cdnjs serves the Font Awesome
+    webfonts). The theme also preconnected to fontawesome.com, Google Analytics, Tag
+    Manager, Facebook, LinkedIn and Twitter, none of which this site loads.
+  - Google Fonts are downloaded at build time and served from this site, instead of
+    being fetched from Google by every visitor. Fonts are still configured in
+    data/theme.json; changing them there is enough, the next build fetches the new ones.
+*/ -}}
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+<!-- self-hosted google fonts -->
+{{ $pf:= hugo.Data.theme.fonts.font_family.primary }}
+{{ $sf:= hugo.Data.theme.fonts.font_family.secondary }}
+{{ $googleURL := printf "https://fonts.googleapis.com/css2?family=%s%s&display=swap" $pf (cond (ne $sf nil) (printf "&family=%s" $sf) "") }}
+{{- /* Google only serves woff2 files to browsers it recognises, so identify as one. */ -}}
+{{ $opts := dict "headers" (dict "User-Agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36") }}
+{{ $fontCSS := "" }}
+{{ with try (resources.GetRemote $googleURL $opts) }}
+  {{ with .Err }}
+    {{ warnf "Could not download Google Fonts CSS, falling back to fonts.googleapis.com: %s" . }}
+  {{ else with .Value }}
+    {{ $css := .Content }}
+    {{ $ok := true }}
+    {{ range findRE `https://fonts\.gstatic\.com/[^)'"]+` $css }}
+      {{ $remote := . }}
+      {{ with try (resources.GetRemote $remote) }}
+        {{ with .Err }}
+          {{ warnf "Could not download font %s: %s" $remote . }}
+          {{ $ok = false }}
+        {{ else with .Value }}
+          {{ $font := . | resources.Copy (printf "fonts/%s" (strings.TrimPrefix "https://fonts.gstatic.com/s/" $remote)) }}
+          {{ $css = replace $css $remote $font.RelPermalink }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    {{ if $ok }}
+      {{ $fontCSS = (resources.FromString "css/fonts.css" $css | minify).Content }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ with $fontCSS }}
+  <style>
+    {{ . | safeCSS }}
+  </style>
+{{ else }}
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="{{ $googleURL }}" />
+{{ end }}
+
+<!-- main styles -->
+{{ $styles := slice }}
+{{ $stylesLazy := slice }}
+
+{{ range site.Params.plugins.css }}
+  {{ if findRE "^http" .link }}
+    <link
+      crossorigin="anonymous"
+      media="all"
+      rel="stylesheet"
+      href="{{ .link | relURL }}"
+      {{ .attributes | safeHTMLAttr }} />
+  {{ else }}
+    {{ if not .lazy }}
+      {{ $styles = $styles | append (resources.Get .link) }}
+    {{ else }}
+      {{ $stylesLazy = $stylesLazy | append (resources.Get .link) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $mainCSS := resources.Get "css/main.css" }}
+{{ $tailwindOpts := dict "inlineImports" true }}
+{{ $tailwindCSS := $mainCSS | css.TailwindCSS $tailwindOpts }}
+
+{{ $styles = $styles | append $tailwindCSS }}
+{{ $styles = $styles | resources.Concat "css/style.css" }}
+
+{{ $stylesLazy = $stylesLazy | resources.Concat "css/style-lazy.css" }}
+
+{{ if hugo.IsProduction }}
+  {{ $styles = $styles | fingerprint }}
+  {{ $stylesLazy = $stylesLazy | minify | fingerprint }}
+{{ end }}
+
+
+<!-- link main style -->
+<link
+  href="{{ $styles.RelPermalink }}"
+  integrity="{{ $styles.Data.Integrity }}"
+  rel="stylesheet" />
+
+<!-- link lazy style -->
+<link
+  rel="stylesheet"
+  href="{{ $stylesLazy.RelPermalink }}"
+  integrity="{{ $stylesLazy.Data.Integrity }}"
+  media="print"
+  onload="this.media='all'; this.onload=null;" />
