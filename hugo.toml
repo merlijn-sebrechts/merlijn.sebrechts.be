@@ -52,6 +52,11 @@ target = 'css'
 [[module.mounts]]
 source = 'assets'
 target = 'assets'
+# Also expose static/img as assets so templates can resize those images. The
+# originals stay in static/ so their /img/... URLs keep working.
+[[module.mounts]]
+source = 'static/img'
+target = 'assets/img'
 [[module.mounts]]
 disableWatch = true
 source = 'hugo_stats.json'

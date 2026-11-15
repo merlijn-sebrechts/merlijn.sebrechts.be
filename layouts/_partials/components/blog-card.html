@@ -12,7 +12,26 @@
     aria-hidden="true"
     tabindex="-1">
     {{ with .Params.image }}
-      {{ partial "image" (dict "Src" . "Context" $.Page "Alt" $.Title "Loading" "lazy" "Class" "h-full! w-full object-cover") }}
+      {{- /* The images module serves files found in static/ untouched, so cards would
+        download full-size originals. static/img is mounted into assets/, so we
+        resize those here into 2:1 WebP crops at a few widths. */ -}}
+      {{ with resources.Get . }}
+        {{ $sm := .Fill "400x200 webp Center" }}
+        {{ $md := .Fill "800x400 webp Center" }}
+        {{ $lg := .Fill "1200x600 webp Center" }}
+        <img
+          src="{{ $md.RelPermalink }}"
+          srcset="{{ $sm.RelPermalink }} 400w, {{ $md.RelPermalink }} 800w, {{ $lg.RelPermalink }} 1200w"
+          sizes="(min-width: 768px) 400px, 100vw"
+          width="{{ $md.Width }}"
+          height="{{ $md.Height }}"
+          alt="{{ $.Title }}"
+          loading="lazy"
+          decoding="async"
+          class="img h-full! w-full object-cover" />
+      {{ else }}
+        {{ partial "image" (dict "Src" . "Context" $.Page "Alt" $.Title "Loading" "lazy" "Class" "h-full! w-full object-cover") }}
+      {{ end }}
     {{ else }}
       <div
         class="bg-light dark:bg-darkmode-light text-text-light flex h-full w-full items-center justify-center">
@@ -51,6 +70,8 @@
   <a
     class="btn btn-outline-primary btn-sm mt-auto self-start"
     href="{{ .RelPermalink }}">
-    {{ T "read_more" | default "Read More" }}
+    {{ T "read_more" | default "Read More" }}<span class="sr-only">
+      about {{ .Title }}</span
+    >
   </a>
 </div>

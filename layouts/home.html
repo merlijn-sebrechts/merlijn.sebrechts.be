@@ -48,7 +48,11 @@
             {{/* From md up the image column stretches to the text column's height and the
               square image fills it, so it spans from the top of the title to the bottom of
               the button. h-full! beats the images module's unlayered `.img { height: auto }`. */}}
-            {{ partial "image" (dict "Src" .image "Alt" "feature image" "Class" "mx-auto aspect-square w-80 rounded object-cover object-[center_15%] md:absolute md:inset-y-0 md:left-1/2 md:h-full! md:w-auto md:-translate-x-1/2" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x") }}
+            {{- /* The first feature image is the largest element above the fold on mobile
+              (the LCP element), so load it eagerly with high priority. */ -}}
+            {{ $loading := cond (eq $i 0) "eager" "lazy" }}
+            {{ $priority := cond (eq $i 0) "high" "" }}
+            {{ partial "image" (dict "Src" .image "Alt" "feature image" "Loading" $loading "FetchPriority" $priority "Class" "mx-auto aspect-square w-80 rounded object-cover object-[center_15%] md:absolute md:inset-y-0 md:left-1/2 md:h-full! md:w-auto md:-translate-x-1/2" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x") }}
           </div>
           <div
             class="{{ if not (modBool $i 2) }}
