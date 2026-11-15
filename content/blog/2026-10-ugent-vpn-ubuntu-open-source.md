@@ -28,13 +28,13 @@ sudo apt install openconnect
 Then connect with these two commands.
 
 ```bash
-output=$(openconnect --useragent=AnyConnect --authenticate vpn.ugent.be)
+output=$(openconnect --useragent=AnyConnect --gnutls-priority="NORMAL:-VERS-ALL:+VERS-TLS1.2:+RSA:+AES-128-CBC:+SHA1" --authenticate vpn.ugent.be)
 
 COOKIE=$(echo "$output" | grep '^COOKIE=' | cut -d= -f2- | tr -d "'")
 FINGERPRINT=$(echo "$output" | grep '^FINGERPRINT=' | cut -d= -f2- | tr -d "'")
 CONNECT_URL=$(echo "$output" | grep '^CONNECT_URL=' | cut -d= -f2- | tr -d "'")
 
-echo "$COOKIE" | sudo openconnect --cookie-on-stdin --servercert "$FINGERPRINT" --useragent=AnyConnect "$CONNECT_URL"
+echo "$COOKIE" | sudo openconnect --gnutls-priority="NORMAL:-VERS-ALL:+VERS-TLS1.2:+RSA:+AES-128-CBC:+SHA1" --cookie-on-stdin --servercert "$FINGERPRINT" --useragent=AnyConnect "$CONNECT_URL"
 ```
 
 You can stop the connection using `Ctrl`-`C`.
@@ -42,6 +42,8 @@ You can stop the connection using `Ctrl`-`C`.
 > Explanation:
 >
 > * The `--useragent=AnyConnect` part is required because otherwise, the VPN server will think your client doesn't support SSO and fall back to a password-based login method that doesn't work anymore.
+>
+> * The `--gnutls-priority="NORMAL:-VERS-ALL:+VERS-TLS1.2:+RSA:+AES-128-CBC:+SHA1"` part is needed to work around [a bug in OpenConnect](https://gitlab.com/openconnect/openconnect/-/work_items/659).
 >
 > * You need two commands because the first one needs to run as your own user so it can open your browser, and the second one requires root permissions to set up the tunnel.
 >
@@ -53,13 +55,13 @@ To make your life a bit easier, you can add the following function to `~/.bashrc
 ugent-vpn() {
   local output COOKIE FINGERPRINT CONNECT_URL
 
-  output=$(openconnect --useragent=AnyConnect --authenticate vpn.ugent.be)
+  output=$(openconnect --useragent=AnyConnect --gnutls-priority="NORMAL:-VERS-ALL:+VERS-TLS1.2:+RSA:+AES-128-CBC:+SHA1" --authenticate vpn.ugent.be)
 
   COOKIE=$(echo "$output" | grep '^COOKIE=' | cut -d= -f2- | tr -d "'")
   FINGERPRINT=$(echo "$output" | grep '^FINGERPRINT=' | cut -d= -f2- | tr -d "'")
   CONNECT_URL=$(echo "$output" | grep '^CONNECT_URL=' | cut -d= -f2- | tr -d "'")
 
-  echo "$COOKIE" | sudo openconnect --cookie-on-stdin --servercert "$FINGERPRINT" --useragent=AnyConnect "$CONNECT_URL"
+  echo "$COOKIE" | sudo openconnect --gnutls-priority="NORMAL:-VERS-ALL:+VERS-TLS1.2:+RSA:+AES-128-CBC:+SHA1" --cookie-on-stdin --servercert "$FINGERPRINT" --useragent=AnyConnect "$CONNECT_URL"
 }
 ```
 
